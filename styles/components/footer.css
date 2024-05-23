@@ -1,0 +1,27 @@
+.footer__logo{
+  font-size: 3.25rem;
+  font-family: Custy;
+  font-weight: 400;
+  list-style: none;
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.footer__copyright{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+
+.footer__socials{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1rem;
+}
