@@ -44,7 +44,10 @@ ul li{
 .socials{
   position: relative;
   color: rgb(65, 65, 65);
-  
+}
+
+.yt,.ig{
+  font-size: 1.15rem;
 }
 
 .yt:hover{
@@ -183,7 +186,7 @@ ul li{
   
   .socials{
     position: relative;
-    left: -6px;
+    left: -3px;
   }
   
 .mobile__btn{
