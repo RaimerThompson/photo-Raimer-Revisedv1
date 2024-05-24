@@ -1,7 +1,7 @@
 .portraits-gallery{
-  width: calc(100% - 4rem);
+  width: calc(100% - 1rem);
   margin: 10px auto;
-  columns: 5;
+  columns: 3;
   column-gap: 10px;
   
 }
