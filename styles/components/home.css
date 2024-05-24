@@ -43,20 +43,23 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0,0,0,.9);
+  background: rgb(255, 255, 255);
   height: 100%;
   width: 100%;
   z-index: 100;
   display: none;
   justify-content: center;
   align-items: center;
+  overflow: scroll;
+  /* overflow-y: hidden; */
+  scrollbar-width: none;
 }
 
 .popup-image img{
 /* width: 100%; */
 height: 100vh;
 max-width: 100%;
-object-fit: contain
+object-fit: contain;
 }
 
 .popup-image span{
@@ -66,17 +69,28 @@ object-fit: contain
   font-size: 3rem;
   /* font-weight: bolder; */
   cursor: pointer;
-  color: white;
+  color: black;
   z-index: 100;
+}
+
+.popup-image span:hover{
+  cursor: pointer;
+  color: red;
+  opacity: .7;
 }
 
 .popup-image img {
   transition: transform 0.25s ease;
-  cursor: zoom-in;
+  /* cursor: zoom-in; */
+
 }
 
-.popup-image img:active {
-  -webkit-transform: scale(2);
+input[type=checkbox] {
+  display: none;
+}
+
+
+input[type=checkbox]:checked ~ label > img {
   transform: scale(2);
   cursor: zoom-out;
 }
