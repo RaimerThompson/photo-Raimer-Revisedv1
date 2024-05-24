@@ -70,6 +70,17 @@ object-fit: contain
   z-index: 100;
 }
 
+.popup-image img {
+  transition: transform 0.25s ease;
+  cursor: zoom-in;
+}
+
+.popup-image img:active {
+  -webkit-transform: scale(2);
+  transform: scale(2);
+  cursor: zoom-out;
+}
+
 @media(max-width: 1200px)
 {
   .image-container{
