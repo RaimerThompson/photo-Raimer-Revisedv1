@@ -1,0 +1,22 @@
+.about-container{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  margin: auto 4rem;
+  gap: 3rem;
+  font-family: header;
+  margin-top: 4rem;
+  font-size: 12px;
+  
+}
+
+.about1,
+.about2{
+  flex: 1;
+  max-width: 300px;
+}
+
+.about2{
+  max-width: 400px;
+}
