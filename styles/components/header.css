@@ -46,7 +46,7 @@ ul li{
   color: rgb(65, 65, 65);
 }
 
-.yt,.ig{
+.yt,.ig,.env{
   font-size: 1.15rem;
 }
 
@@ -56,6 +56,10 @@ ul li{
 
 .ig:hover{
   color: rgb(255, 0, 255);
+}
+
+.env:hover{
+  color: rgb(0, 130, 255);
 }
 
 .header__logo{
