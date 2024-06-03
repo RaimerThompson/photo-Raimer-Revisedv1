@@ -1,0 +1,9 @@
+.contact-container{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: Header;
+  gap: 10px;
+}

@@ -14,9 +14,10 @@
 .image-container{
   width: calc(100% - 1rem);
   margin: auto;
-  columns: 5;
+  columns: 3;
   column-gap: 10px;
 }
+
 
 .col{
   margin: auto .5rem;
@@ -99,7 +100,7 @@ input[type=checkbox]:checked ~ label > img {
 {
   .image-container{
     width: calc(100% - 1rem);
-    columns: 4;
+    columns: 3;
   }  
 }
 
