@@ -1,6 +1,7 @@
 .about-container{
   position: relative;
   display: flex;
+  flex-direction: column-reverse;
   justify-content: center;
   align-items: top;
   margin: auto 4rem;
@@ -24,3 +25,35 @@
 .about2{
   max-width: 400px;
 }
+
+
+/* xs */
+@media (min-width: 475px) {
+  .about-container{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: top;
+    margin: auto 4rem;
+    gap: 3rem;
+    font-family: Header;
+    margin-top: 4rem;
+    font-size: 10px;
+  }
+}
+
+/* sm */
+/* @media (min-width: 640px) {} */
+
+/* md */
+/* @media (min-width: 768px) {} */
+
+/* Lg */
+/* @media (min-width: 1024px) {} */
+
+/* xL */
+/* @media (min-width: 1288px) {} */
+
+/* 2xL */
+/* @media (min-width: 1536px) {}   */
