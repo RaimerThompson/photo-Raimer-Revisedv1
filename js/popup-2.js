@@ -1,4 +1,4 @@
-// document.querySelectorAll('.image-container img').forEach(box =>{
+// document.querySelectorAll('.portraits-gallery img').forEach(box =>{
 //   box.onclick = () =>{
 //     document.querySelector('.popup-image').style.display = 'flex';
 //     document.querySelector('.popup-image img').src = box.getAttribute('src');
@@ -10,7 +10,7 @@
 //   document.querySelector('.popup-image').style.display = 'none';
 // }
    
-const gallery = document.querySelectorAll('.image-container .box'),
+const gallery = document.querySelectorAll('.portraits-gallery .row'),
 popupBox = document.querySelector(".popup-image"),
 previewImg = popupBox.querySelector('img'),
 closeImg = popupBox.querySelector('span')
@@ -74,4 +74,3 @@ window.onload = () => {
     }  
   }
 }
-
