@@ -14,7 +14,7 @@
 .image-container{
   width: calc(100% - 1rem);
   margin: auto;
-  columns: 3;
+  columns: 1;
   column-gap: 10px;
 }
 
@@ -97,11 +97,15 @@ object-fit: contain;
 
 .prev{
   left: 1rem;
+  display: none;
 }
 
 .next{
   right: 1rem;
+  display: none;
 }
+
+
 
 input[type=checkbox] {
   display: none;
@@ -113,33 +117,37 @@ input[type=checkbox]:checked ~ label > img {
   cursor: zoom-out;
 }
 
-@media(max-width: 1200px)
-{
-  .image-container{
-    width: calc(100% - 1rem);
-    columns: 3;
-  }  
-}
-
-
-@media(max-width: 1024px)
-{
-  .image-container{
-    width: calc(100% - 1rem);
-    columns: 3;
-  }  
-}
-
-@media(max-width: 768px)
+@media(min-width: 480px)
 {
   .image-container{
     columns: 2;
   }
-}
 
-@media(max-width: 480px)
-{
-  .image-container{
-    columns: 1;
+  .prev,
+  .next{
+    display: block;
   }
 }
+
+@media(min-width: 768px)
+{
+  .image-container{
+    columns: 3;
+  }
+}
+
+@media(min-width: 1024px)
+{
+  .image-container{
+    columns: 3;
+  }  
+}
+
+
+@media(min-width: 1200px)
+{
+  .image-container{
+    columns: 3;
+  }  
+}
+
