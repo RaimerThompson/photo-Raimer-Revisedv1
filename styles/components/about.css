@@ -36,7 +36,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: top;
-    margin: auto 4rem;
+    margin: auto 2rem;
     gap: 3rem;
     font-family: Header;
     margin-top: 4rem;
@@ -45,7 +45,20 @@
 }
 
 /* sm */
-/* @media (min-width: 640px) {} */
+@media (min-width: 640px) {
+  .about-container{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: top;
+    margin: auto 4rem;
+    gap: 3rem;
+    font-family: Header;
+    margin-top: 4rem;
+    font-size: 10px;
+  }
+}
 
 /* md */
 /* @media (min-width: 768px) {} */
