@@ -13,6 +13,11 @@
   src: url(/fonts/Gilgan.otf)
 }
 
+@font-face{
+  font-family: Para;
+  src: url(/fonts/Garet-Book.otf)
+}
+
 
 * {
   margin: 0;

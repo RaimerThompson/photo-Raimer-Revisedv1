@@ -6,14 +6,15 @@
   align-items: top;
   margin: auto 4rem;
   gap: 3rem;
-  font-family: Header;
+  /* font-family: Header; */
   margin-top: 4rem;
   font-size: 10px;
 }
 
 .about1 h2{
   line-height: 1.75rem;
-  font-weight: 100;
+  /* font-weight: 100; */
+  font-family: Para;
 }
 
 .about1,
