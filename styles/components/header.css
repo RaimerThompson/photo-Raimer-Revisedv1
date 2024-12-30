@@ -38,7 +38,12 @@ ul li a.active{
   align-items: center;
   position: relative;
   text-align: center;
-  font-family: Mel;
+  font-family: Dream;
+}
+
+.header__menu-logo li{
+  display: flex;
+  flex-direction: column;
 }
 
 .header__logo:hover{
@@ -49,12 +54,18 @@ ul li a.active{
   font-size: .8rem;
   font-weight: 100;
   color: black;
-  letter-spacing: 6px;
-  font-family: Mel;
+  font-family: Dream;
   position: relative;
   top: -3px;
   left: -20px;
 }
+
+.ggd-middle{
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-size: .4rem;
+}
+
 
 #nav{
   display: flex;
@@ -142,18 +153,18 @@ ul li a.active{
 }
 
 @media (min-width: 346px) {
-  .header__logo{
+  /* .header__logo{
     font-size: 1.15rem;
     left: -2.5px;
-  }
+  } */
 }
 
 /* xs */
 @media (min-width: 475px) {
-  .header__logo{
+  /* .header__logo{
     font-size: 1.35rem;
     left: -2.5px;
-  }
+  } */
 }
 
 

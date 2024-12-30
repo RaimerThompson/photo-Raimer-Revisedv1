@@ -28,6 +28,10 @@
   font-family: Comma;
   src: url(/fonts/Brigfted.otf);
 }
+@font-face {
+  font-family: Dream;
+  src: url(/fonts/FontsFree-Net-Dream-Avenue.ttf);
+}
 
 
 
@@ -43,8 +47,8 @@ html {
 }
 
 body {
-  font-family: 'Questrial', sans-serif;
-  /* color:rgb(95, 45, 20); */
+  font-family:  "Cormorant Garamond", serif;
+  font-style: normal;
   color: black;
 }
 
