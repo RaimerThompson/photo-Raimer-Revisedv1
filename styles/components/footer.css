@@ -20,7 +20,7 @@
 }
 
 .footer__logo{
-  font-family: Mel;
+  font-family: Dream;
   letter-spacing: 4px;
   font-weight: 100;
   margin-bottom: 2px;
@@ -28,7 +28,8 @@
 }
 
 .footer__sub-logo{
-  font-family: Mel;
+  font-family: "Poppins", serif;
+  font-style: normal;
   font-size: .8rem;
   letter-spacing: 2px;
   font-weight: 100;
@@ -187,7 +188,7 @@
   } */
 
   .footer__logo{
-    font-family: Mel;
+    font-family: Dream;
     letter-spacing: 8px;
     font-weight: 100;
     margin-bottom: 2px;
@@ -195,7 +196,8 @@
   }
   
   .footer__sub-logo{
-    font-family: Mel;
+    font-family: "Poppins", serif;
+    font-style: normal;
     font-size: .7rem;
     letter-spacing: 4px;
     font-weight: 100;
@@ -214,7 +216,7 @@
 @media (min-width: 475px) {
   
   .footer__logo{
-    font-family: Mel;
+    font-family: Dream;
     letter-spacing: 8px;
     font-weight: 100;
     margin-bottom: 2px;
@@ -222,7 +224,8 @@
   }
   
   .footer__sub-logo{
-    font-family: Mel;
+    font-family: "Poppins", serif;
+  font-style: normal;
     font-size: .75rem;
     letter-spacing: 4px;
     font-weight: 100;
@@ -304,7 +307,7 @@
   }
 
   .footer__logo{
-    font-family: Mel;
+    font-family: Dream;
     letter-spacing: 8px;
     font-weight: 100;
     margin-bottom: 2px;
@@ -312,7 +315,8 @@
   }
   
   .footer__sub-logo{
-    font-family: Mel;
+    font-family: "Poppins", serif;
+    font-style: normal;
     font-size: 1rem;
     letter-spacing: 4px;
     font-weight: 100;
