@@ -260,7 +260,7 @@
 .home__sub-div{
   position: relative;
   background-color: #efebe7;
-  padding: 2rem;
+  padding: 2rem 2rem 8rem;
 }
 
 .home__value{
@@ -324,10 +324,14 @@
 }
 
 .home__test-text{
-  flex: 2;
+  flex: 1.15;
   padding: 3.5rem 2rem 2rem;
   line-height: 6rem;
   background-color: #efebe7;
+}
+
+.home__test-subtext{
+  padding: 0rem 6rem;
 }
 
 .home__test-quote{
@@ -402,7 +406,7 @@
 
 .home__services-img{
   width: 360px;
-  flex: 2;
+  flex: 1;
   position: relative;
   bottom: 2rem;
 }
@@ -473,15 +477,15 @@
 
 .home__portfolio-modal-img{
   position: absolute;
-  max-width: 8rem;
-  right: 7rem;
+  max-width: 13rem;
+  right: 9rem;
   z-index: 20;
 }
 
 .home__portfolio-img{
-  max-width: 10rem;
+  max-width: 15rem;
   filter: opacity(.5);
-  flex: .5;
+  /* flex: .5; */
 }
 
 .home__faq{
@@ -566,6 +570,8 @@
 
 .about-p{
   font-family:  "Cormorant Garamond", serif;
+  font-style: normal;
+  font-weight: 100;
   font-size: 1rem;
  }
  
@@ -594,7 +600,7 @@
 }
 
 .home__planning-img{
-  width: 270px;
+  width: 220px;
   /* flex: .5; */
   position: absolute;
   right: 0;
@@ -607,7 +613,7 @@
 
 .home__planning-text{
   flex: 2;
-  padding: 3.5rem 2rem 2rem;
+  padding: 0rem 2rem;
   line-height: 6rem;
   background-color: #efebe7;
 }
@@ -616,7 +622,9 @@
   font-family: Dream;
   font-size: 3.5rem;
   font-weight: 100;
-  padding: 0 2.5rem;
+  padding: 0rem 2.5rem 0;
+  position: relative;
+  top: 1.5rem;
  }
 
  .home__planning-button{
@@ -944,15 +952,18 @@
   opacity: .85;
 }
 
-.home__contact-container{
+.home__socials{
   position: relative;
   text-align: center;
-  max-width: 1224px;
-  width: 90%;
-  margin: 0 auto;
-  /* padding-bottom: 5.5rem; */
-  /* padding-top: 0rem; */
-  /* border: 2px dotted red; */
+  padding: 3rem 0;
+}
+
+.home__socials-title{
+  font-family: Dream;
+  font-size: 3.5rem;
+  position: absolute;
+  top: -1rem;
+  right: 2rem;
 }
 
 .home__contact-text{
@@ -986,6 +997,8 @@
   width: 128px;
   height: 128px;
   object-fit: cover;
+  object-position: 50% 0%;
+
 }
 
 .contact__img img{
@@ -1755,6 +1768,13 @@
     /* top: -3.5rem; */
   }
 
+  .home__test-text{
+    flex: 2;
+    padding: 3.5rem 2rem 2rem;
+    line-height: 6rem;
+    background-color: #efebe7;
+  }
+
   .home__planning-container{
     height: 600px;
   }
@@ -1801,6 +1821,13 @@
     background-color: rgba(247, 247, 247, 0.85);
     border: none;
   }
+
+  .contact__img{
+    width: 360px;
+    height: 360px;
+    object-fit: cover;
+  }
+
 }
 
 /* xL */
