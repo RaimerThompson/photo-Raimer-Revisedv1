@@ -214,9 +214,8 @@ padding: 0 0 2rem;
 
 .phase__dots-service{
   position: absolute;
-  right: -3rem;
+  bottom: 1.5rem;
   z-index: 2;
-  transform: rotate(90deg);
   cursor: default;
 }
 
@@ -273,6 +272,15 @@ padding: 0 0 2rem;
   
    .service__phase-text{
     padding: 1rem 3rem 1.5rem;
+  }
+
+  .phase__dots-service{
+    position: absolute;
+    right: -3rem;
+    bottom: initial;
+    z-index: 2;
+    transform: rotate(90deg);
+    cursor: default;
   }
 
   .phase__dots-service{
