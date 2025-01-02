@@ -1,27 +1,14 @@
-const sliders = document.querySelector('.r2').children[0];
-let num = 0;
-
-console.log(sliders);
-
-function nextSlide2(){
-  if (num == sliders.length-1){
-    num = 0;
-  }else{
-    num++;
+let indexvalue = 1;
+ServiceshowImg(indexvalue);
+function Sdot(e){ServiceshowImg(indexvalue = e);}
+function ServiceshowImg(e){
+  let i;
+  const Simg = document.querySelectorAll('.phase-service')
+  const ServiceSliderDot = document.querySelectorAll('.phase__dots-service span')
+  if (e > Simg.length){indexvalue = 1}
+  if (e < 1){indexvalue = Simg.length}
+  for (i = 0; i < Simg.length; i++){
+    Simg[i].style.display = "none";
   }
-  changeSlide2();
-  // clearInterval(timer)
+  Simg[indexvalue - 1].style.display = "flex";
 }
-
-function changeSlide2(){
-  for (let i=0; i<sliders.length; i++){
-      sliders[i].classList.remove('active');
-  }
-
-  sliders[num].classList.add('active');
-}
-
-function autoPlay2(){
-  nextSlide2();
-}
-let timeClock = setInterval(autoPlay2, 500)
