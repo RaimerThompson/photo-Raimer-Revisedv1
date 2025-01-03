@@ -463,7 +463,7 @@
   justify-content: space-around;
   align-items: center;
   margin-bottom: 4rem;
-  padding: 2rem 6rem;
+  /* padding: 2rem 6rem; */
   gap: 3rem;
 }
 
