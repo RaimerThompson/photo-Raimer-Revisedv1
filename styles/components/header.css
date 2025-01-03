@@ -50,6 +50,21 @@ ul li a.active{
   color: red;
 }
 
+.header__button{
+  background-color: #dfd9b6;
+  border: none;
+  border-radius: 1.25rem;
+  padding: .75rem 1.25rem;
+  line-height: 16px;
+  letter-spacing: 1px;
+  font-family: SeaLight;
+  font-weight: 100;
+}
+.header__menu-left a{
+ text-decoration: none;
+ color: inherit;
+}
+
 .header__logo{
   font-size: .8rem;
   font-weight: 100;
