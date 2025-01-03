@@ -1,14 +1,12 @@
 ul li a{
   text-decoration: none;
   list-style: none;
-  /* color: rgba(56, 55, 55, .9); */
-  /* color: rgb(95, 45, 20, .8); */
-  color: white;
-  /* color: black; */
+  color:black;
   font-size: 16px;
-  letter-spacing: 1.25px;
-
+  letter-spacing: 2px;
   transition: color .4s ease-in-out;
+  font-family: SeaRegular;
+  
 }
 
 .header__link a:hover{
@@ -16,7 +14,7 @@ ul li a{
 }
 
 ul li a.active{
-  color: white;
+  color: black;
 }
 
 .header__menu{
@@ -39,6 +37,7 @@ ul li a.active{
   position: relative;
   text-align: center;
   font-family: Dream;
+  display: none;
 }
 
 .header__menu-logo li{
@@ -46,9 +45,6 @@ ul li a.active{
   flex-direction: column;
 }
 
-.header__logo:hover{
-  color: red;
-}
 
 .header__button{
   background-color: #dfd9b6;
@@ -113,7 +109,7 @@ ul li a.active{
 .hamburger__btn.close{
   top: 0;
   left: 2px;
-  fill: white;
+  fill: black;
   transition: fill .4s ease-in-out;
 }
 
@@ -164,7 +160,7 @@ ul li a.active{
 #navbar.active{
   right: 0;
   transition: .5s ease-in-out;
-  background-color: rgb(129, 113, 98);
+  background-color: #efebe7;
 }
 
 @media (min-width: 346px) {
