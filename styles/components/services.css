@@ -42,9 +42,9 @@
 } */
 
 .services__banner{
-  background: url(/images/299.jpg);
+  background: url(/images/131.jpg);
   /* background-attachment: fixed; */
-  background-position: 30% 50%;
+  background-position: 50% 100%;
   background-size: cover;
   max-width: 2624px;
   height: 94vh;
@@ -487,7 +487,7 @@ padding: 0 0 2rem;
   }
 
   .services__journey-div{
-    align-items: flex-start;
+    align-items: center;
   }
 
   .services__journey-text{
@@ -521,6 +521,11 @@ padding: 0 0 2rem;
 
 /* xL */
 @media (min-width: 1288px) {
+
+  .services__journey-text{
+    padding: 0 6rem 2rem;
+    }
+
   .phase__div-service{
     padding: 6rem 1rem;
   }

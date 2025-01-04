@@ -211,7 +211,7 @@
   font-size: 3.5rem;
   letter-spacing: 1px;
   font-weight: 100;
-  padding-bottom: .75rem;
+  /* padding-bottom: .75rem; */
 }
 
 .home__text-p{
@@ -1122,7 +1122,7 @@
 @media (min-width: 1024px) {
   .home__test-text{
     flex: 2.15;
-    padding: 3.5rem 2rem 2rem;
+    padding: 3.5rem 10rem 2rem;
     line-height: 6rem;
     background-color: #efebe7;
   }
@@ -1149,9 +1149,7 @@
 @media (min-width: 1288px) {
   .home__test-text{
     flex: 4;
-    padding: 3.5rem 2rem 2rem;
-    line-height: 6rem;
-    background-color: #efebe7;
+    padding: 3.5rem 15rem 2rem;
   }
 
   .phase__div{
@@ -1166,6 +1164,12 @@
 
 /* 2xL */
 @media (min-width: 1536px) {
+
+  .home__test-text{
+    flex: 4;
+    padding: 3.5rem 28rem 2rem;
+  }
+
   .phase__dots{
     right: 7rem;
   }
