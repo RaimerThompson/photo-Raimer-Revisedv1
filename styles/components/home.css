@@ -235,7 +235,7 @@
   display: flex;
   justify-content: center;
   max-width: 400px;
-  padding: 0 1rem;
+  padding: 0 2rem;
 }
 
 .home__sub-div{
@@ -299,7 +299,7 @@
   align-items: flex-end;
   flex-direction: column-reverse;
   max-width: 400px;
-  padding: 0 1rem;
+  padding: 0 2rem;
   /* background-color: #efebe7; */
 }
 
@@ -436,7 +436,7 @@
   flex: 1;
   position: relative;
   bottom: 2rem;
-  padding: 0 1rem;
+  padding: 0 2rem;
 }
 
 .home__services-title{
@@ -605,7 +605,7 @@
 
 .home__about-img{
   max-width: 400px;
-  padding: 0 1rem;
+  padding: 0 2rem;
   position: relative;
   margin: 0 auto;
   /* flex: .5; */
@@ -665,7 +665,7 @@
 
 .home__planning-img{
   max-width: 400px;
-  padding: 0 1rem;
+  padding: 0 2rem;
   /* flex: .5; */
   position: relative;
   right: 0;
