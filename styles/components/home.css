@@ -226,8 +226,8 @@
 .home__intro-container {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
-  padding: 5rem 0rem 2rem;
+  gap: 4rem;
+  padding: 5rem 0rem 3rem;
 }
 
 .home__intro-gallery{
@@ -235,12 +235,13 @@
   display: flex;
   justify-content: center;
   max-width: 400px;
+  padding: 0 1rem;
 }
 
 .home__sub-div{
   position: relative;
   background-color: #efebe7;
-  padding: 2rem 2rem;
+  padding: 2rem 0rem;
 }
 
 .home__value{
@@ -298,6 +299,7 @@
   align-items: flex-end;
   flex-direction: column-reverse;
   max-width: 400px;
+  padding: 0 1rem;
   /* background-color: #efebe7; */
 }
 
@@ -480,7 +482,7 @@
 .home__portfolio{
   display: flex;
   position: relative;
-  margin: 0 0rem 2rem;
+  margin: 2rem 0rem 2rem;
   background-color: #efebe7;
   justify-content: space-between;
   align-items: center;
@@ -598,14 +600,14 @@
   flex-direction: column-reverse;
   text-align: center;
   justify-content: center;
-  align-items: center;
-  /* background-color: #efebe7; */
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 }
 
 .home__about-img{
   max-width: 400px;
   padding: 0 1rem;
+  position: relative;
+  margin: 0 auto;
   /* flex: .5; */
 }
 
@@ -798,7 +800,32 @@
 }
 
 /* md mobile */
-/* @media (min-width: 400px) {} */
+@media (min-width: 400px) {
+    
+  .home__intro-gallery{
+    padding: inherit;
+  }
+
+  .home__test-div{
+    padding: inherit;
+  }
+
+  .home__services-img{
+    padding: inherit;
+  }
+
+  .home__about-img{
+    padding: inherit;
+  }
+
+  .home__planning-img{
+    padding: inherit;
+  }
+
+  .home__sub-div{
+    padding: 2rem 2rem;
+  }
+}
 
 /* xs */
 @media (min-width: 475px) {
@@ -951,7 +978,24 @@
     position: relative;
     padding: 0 2rem 2rem;
   }
-  
+
+  .home__about-div{
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+
+  .home__about-img{
+    max-width: 400px;
+    padding: inherit;
+    position: relative;
+    margin: initial;
+    /* flex: .5; */
+  }
     
   .home__phase{
     flex-direction: row;
