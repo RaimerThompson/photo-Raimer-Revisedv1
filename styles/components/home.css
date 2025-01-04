@@ -235,7 +235,7 @@
   display: flex;
   justify-content: center;
   max-width: 360px;
-  padding: 0 2rem;
+  padding: 0 1rem;
 }
 
 .home__sub-div{
@@ -432,11 +432,11 @@
 }
 
 .home__services-img{
-  max-width: 360px;
   flex: 1;
   position: relative;
   bottom: 2rem;
-  padding: 0 2rem;
+  max-width: 360px;
+  padding: 0 1rem;
 }
 
 .home__services-title{
@@ -605,7 +605,7 @@
 
 .home__about-img{
   max-width: 360px;
-  padding: 0 2rem;
+  padding: 0 1rem;
   position: relative;
   margin: 0 auto;
   /* flex: .5; */
@@ -665,7 +665,7 @@
 
 .home__planning-img{
   max-width: 360px;
-  padding: 0 2rem;
+  padding: 0 1rem;
   /* flex: .5; */
   position: relative;
   right: 0;
