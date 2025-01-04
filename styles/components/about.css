@@ -35,15 +35,9 @@
   fill: white;
 }
 
-/* .services{
-  max-width: 2624px;
-  width: 80%;
-  margin: auto;
-} */
 
 .about__banner{
   background: url(/images/311.jpg);
-  /* background-attachment: fixed; */
   background-position: 35% 100%;
   background-size: cover;
   max-width: 2624px;
@@ -81,12 +75,12 @@
   font-size: 2.5rem;
 }
 
-.services__journey{
+.about__me{
   position: relative;
   padding: 0 2rem 2rem;
 }
 
-.services__journey-div{
+.about__me-div{
   position: relative;
   display: flex;
   flex-direction: column;
@@ -97,43 +91,83 @@
   margin-bottom: 2rem;
 }
 
-.services__journey-img{
+.about__me-img{
   max-width: 560px;
   filter: saturate(80%);
   flex: 1;
 }
 
-.services__journey-text-div{
+.about__me-text-div{
   /* flex: 1; */
   padding: 3rem 1rem;
   line-height: 6rem;
   background-color: #efebe7;
 }
 
-.services__journey-text{
+.about__me-text{
 padding: 0 0 2rem;
 }
 
-.services__journey-title{
+.about__quote{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
   font-family: Dream;
-  font-size: 2.5rem;
   font-weight: 100;
-  padding-bottom: 2.5rem;
- }
-
-.services__journey-button{
-  background-color: #dfd9b6;
-  border: none;
-  border-radius: 8px;
-  padding: .5rem 2.5rem;
-  /* width: 93px; */
-  line-height: 16px;
-  font-weight: 700;
+  max-width: 630px;
+  margin: 0 auto 2rem;
+  gap: 10px;
+}
+.about__quote-text{
+  line-height: 20px;
+  letter-spacing: 1px;
 }
 
 
+.corner__about{
+  position: relative;
+}
 
-.services__planning{
+.corner__about-div{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 4rem;
+  gap: 1.5rem;
+}
+
+.corner__about-img{
+  max-width: 360px;
+  padding: 0 1rem;
+  position: relative;
+  margin: 0 auto;
+  /* flex: .5; */
+}
+
+.corner__about-text{
+  flex: 1;
+  padding: 3rem;
+  line-height: 6rem;
+  background-color: #efebe7;
+}
+
+.corner__about-title{
+  font-family: Dream;
+  font-size: 2.5rem;
+  font-weight: 100;
+  padding-bottom: 4rem;
+ }
+
+.bold{
+  font-family: Dream;
+  font-size: 24px;
+}
+
+.about__planning{
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -141,23 +175,23 @@ padding: 0 0 2rem;
   margin-bottom: 3rem;
 }
 
-.services__planning-text{
+.about__planning-text{
   flex: 2;
   padding: 0.5rem 2rem;
   line-height: 6rem;
   background-color: #efebe7;
 }
 
-.services__planning-title{
+.about__planning-title{
   font-family: Dream;
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   font-weight: 100;
-  padding: 0rem 2.5rem 0;
+  padding: 0rem 0rem 0;
   position: relative;
   top: 1.5rem;
  }
 
- .services__planning-button{
+ .about__planning-button{
    background-color: #dfd9b6;
    border: none;
    border-radius: 8px;
@@ -181,10 +215,22 @@ padding: 0 0 2rem;
     font-size: 3rem;
   }
 
-  .services__journey-title{
+  .corner__about-title{
     font-size: 3rem;
    }
+
+  .about__planning-title{
+    font-size: 3rem;
+   }
+}
+
+/* md mobile */
+@media (min-width: 400px) {
   
+
+  .corner__about-img{
+    padding: inherit;
+  }
 }
 
 /* xs */
@@ -202,14 +248,17 @@ padding: 0 0 2rem;
     font-size: 3.5rem;
   }
 
-  .services__journey-text-div{
+  .about__me-text-div{
     padding: 3rem;
   }
 
-  .services__journey-title{
+  .corner__about-title{
     font-size: 3.5rem;
    }
 
+  .about__planning-title{
+    font-size: 3.5rem;
+   }
 
 }
 
@@ -224,34 +273,47 @@ padding: 0 0 2rem;
     width: max-content;
   }
 
-.services__journey-div{
+.about__me-div{
   flex-direction: row;
 
 }
 
-.services__journey-img{
+.about__me-img{
   max-width: 560px;
-  filter: saturate(80%);
-  flex: 1;
+  flex: .75;
 }
 
-.services__journey-text-div{
+.about__me-text-div{
   flex: 1;
   padding: 1rem 2rem;
   line-height: 0;
 }
 
-.services__journey-title{
-  padding-bottom: 2rem;
- }
 
- .banner{
-  margin: 4rem 0;
+.corner__about{
+  position: relative;
+  padding: 0 2rem 2rem;
 }
 
-.banner__div-text{
-  font-size: 2.5rem;
+.corner__about-div{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  align-items: inherit;
+  margin-bottom: 2rem;
+  gap: 0;
 }
+
+.corner__about-img{
+  max-width: 320px;
+  padding: inherit;
+  position: relative;
+  margin: initial;
+  /* flex: .5; */
+}
+  
 
 
 }
@@ -264,37 +326,23 @@ padding: 0 0 2rem;
     width: max-content;
   }
 
-  .services__journey-div{
+  .about__me-div{
     align-items: center;
   }
 
-  .services__journey-text{
+  .about__me-img{
+    flex: .75;
+  }
+
+  .about__me-text{
     padding: 0 4rem 2rem;
     }
   
-  .services__journey-img{
-    max-width: 560px;
-    filter: saturate(80%);
-    flex: 1;
-  }
-  
-  .services__journey-text-div{
+  .about__me-text-div{
     flex: 1.5;
     padding: 2rem 1rem 2rem;
     line-height: 0;
   }
-    
-  .services__journey-title{
-    padding-bottom: 4rem;
-   }
-
-  .services__planning-text{
-    flex: 5;
-    padding: 1rem 2rem;
-    line-height: 6rem;
-    background-color: #efebe7;
-  }
-
 }
 
 /* xL */

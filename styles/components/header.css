@@ -45,7 +45,6 @@ ul li a.active{
   flex-direction: column;
 }
 
-
 .header__button{
   background-color: #dfd9b6;
   border: none;
@@ -56,9 +55,10 @@ ul li a.active{
   position: relative;
   top: 2px;
   right: 1.5rem;
-  font-family: SeaLight;
+  font-family: SeaRegular;
   font-weight: 100;
 }
+
 .header__menu-left a{
  text-decoration: none;
  color: inherit;
