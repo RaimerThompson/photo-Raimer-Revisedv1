@@ -234,7 +234,7 @@
   position: relative;
   display: flex;
   justify-content: center;
-  max-width: 400px;
+  max-width: 360px;
   padding: 0 2rem;
 }
 
@@ -298,8 +298,8 @@
   justify-content: space-between;
   align-items: flex-end;
   flex-direction: column-reverse;
-  max-width: 400px;
-  padding: 0 2rem;
+  max-width: 360px;
+  padding: 0 1rem;
   /* background-color: #efebe7; */
 }
 
@@ -432,7 +432,7 @@
 }
 
 .home__services-img{
-  max-width: 400px;
+  max-width: 360px;
   flex: 1;
   position: relative;
   bottom: 2rem;
@@ -604,7 +604,7 @@
 }
 
 .home__about-img{
-  max-width: 400px;
+  max-width: 360px;
   padding: 0 2rem;
   position: relative;
   margin: 0 auto;
@@ -664,7 +664,7 @@
 }
 
 .home__planning-img{
-  max-width: 400px;
+  max-width: 360px;
   padding: 0 2rem;
   /* flex: .5; */
   position: relative;
@@ -999,7 +999,7 @@
   }
 
   .home__about-img{
-    max-width: 400px;
+    max-width: 360px;
     padding: inherit;
     position: relative;
     margin: initial;
