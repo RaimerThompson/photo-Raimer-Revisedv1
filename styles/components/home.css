@@ -33,9 +33,9 @@
   border: 1px solid rgb(95, 45, 20, .3);
 }
 
-.header.scrolled .hamburger__btn.close{
+/* .header.scrolled .hamburger__btn.close{
   fill: white;
-}
+} */
 
 
 .home__banner{
@@ -90,7 +90,7 @@
   flex-direction: column;
   text-align: center;
   position: absolute;
-  font-size: 2.5rem;
+  font-size: 3rem;
   color: white;
   bottom: 5rem;
   margin-left: auto;
@@ -801,7 +801,11 @@
 
 /* md mobile */
 @media (min-width: 400px) {
-    
+  
+  .title__span{
+    font-size: 3.5rem;
+  }
+
   .home__intro-gallery{
     padding: inherit;
   }
@@ -899,6 +903,11 @@
 
 /* md */
 @media (min-width: 768px) {
+
+  .title__span{
+    font-size: 5rem;
+    bottom: 2.5rem;
+  }
 
   .home__intro-container{
     display: flex;

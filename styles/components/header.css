@@ -50,9 +50,12 @@ ul li a.active{
   background-color: #dfd9b6;
   border: none;
   border-radius: 1.25rem;
-  padding: .75rem 1.25rem;
+  padding: .75rem 1rem;
   line-height: 16px;
   letter-spacing: 1px;
+  position: relative;
+  top: 2px;
+  right: 1.5rem;
   font-family: SeaLight;
   font-weight: 100;
 }
