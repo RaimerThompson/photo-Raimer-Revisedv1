@@ -426,7 +426,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 2rem 2rem 0;
+  padding: 2rem 0rem 0;
 }
 
 .home__services-img{
@@ -434,6 +434,7 @@
   flex: 1;
   position: relative;
   bottom: 2rem;
+  padding: 0 1rem;
 }
 
 .home__services-title{
@@ -452,7 +453,6 @@
   font-family: Dream;
   font-size: 2.5rem;
   font-weight: 100;
-  width: 360px;
 }
 
 .home__services-div{
@@ -605,6 +605,7 @@
 
 .home__about-img{
   max-width: 400px;
+  padding: 0 1rem;
   /* flex: .5; */
 }
 
@@ -662,6 +663,7 @@
 
 .home__planning-img{
   max-width: 400px;
+  padding: 0 1rem;
   /* flex: .5; */
   position: relative;
   right: 0;
@@ -807,6 +809,7 @@
 
   .home__services-midtitle{
     font-size: 3.5rem;
+    width: 360px;
   }
   
   .home__portfolio-title{
