@@ -257,6 +257,7 @@ padding: 0 0 2rem;
   padding: 1rem;
   gap: 1rem;
   position: relative;
+  height: 20rem;
 }
 
 .phase-service{
@@ -280,8 +281,10 @@ padding: 0 0 2rem;
   font-style: normal;
   letter-spacing: 5px;
 }
+
 .phase-p-service{
-  width: 200px;
+  width: 360px;
+  height: 8rem;
 }
 
 .phase__dots-service{
@@ -489,13 +492,18 @@ padding: 0 0 2rem;
   bottom: -6rem;
 }
 
-
  .service__phase{
   flex-direction: row;
+  align-items: center;
 }
 
 .service__phase-text{
-  padding: 1rem 2rem;
+  padding: 1rem;
+}
+
+.phase-p-service{
+  width: 260px;
+  height: inherit;
 }
 
  .phase-service{
@@ -549,8 +557,12 @@ padding: 0 0 2rem;
     padding: 1rem 4rem;
   }
 
+  .phase-p-service{
+    width: 360px;
+  }  
+
   .phase__dots-service{
-    right: 2rem;
+    right: -2rem;
   }
 
   .services__planning-text{
@@ -574,13 +586,13 @@ padding: 0 0 2rem;
   }
 
   .phase__dots-service{
-    right: 4rem;
+    right: 2rem;
   }
 }
 
 /* 2xL */
 @media (min-width: 1536px) {
   .phase__dots-service{
-    right: 7rem;
+    right: 3rem;
   }
 }  
