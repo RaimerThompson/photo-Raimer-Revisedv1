@@ -113,16 +113,18 @@ padding: 0 1rem 2rem;
   text-align: center;
   justify-content: center;
   align-items: center;
-  font-family: Dream;
-  font-weight: 100;
   max-width: 630px;
   margin: 3rem auto;
   gap: 10px;
 }
 
+.about__quote-span{
+  font-family: Dream;
+  font-weight: 100;
+  font-size: 18px;
+}
+
 .about__quote-text{
-  line-height: 20px;
-  letter-spacing: 1px;
   padding: 0 2rem;
 }
 
