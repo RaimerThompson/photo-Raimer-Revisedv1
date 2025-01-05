@@ -199,6 +199,8 @@ padding: 0 1rem 2rem;
    line-height: 16px;
    letter-spacing: 1px;
    font-weight: 700;
+   font-family: SeaRegular;
+   font-weight: 100;
  }
 
 
@@ -367,7 +369,7 @@ padding: 0 1rem 2rem;
   }
 
   .about__me-text{
-    padding: 0 4rem 2rem;
+    padding: 0 8rem 2rem;
     }
   
   .about__me-text-div{
