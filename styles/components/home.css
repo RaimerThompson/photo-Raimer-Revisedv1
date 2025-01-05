@@ -471,7 +471,7 @@
   align-items: center;
   margin-bottom: 4rem;
   /* padding: 2rem 6rem; */
-  gap: 3rem;
+  gap: 1rem;
 }
 
 .home__services-button{
@@ -822,7 +822,7 @@
   }
 
   .home__services-img{
-    padding: inherit;
+    padding: initial;
   }
 
   .home__about-img{
@@ -846,7 +846,7 @@
   }
 
   .home__services-midtitle{
-    font-size: 3rem;
+    /* font-size: 3rem; */
     width: 360px;
   }
   
@@ -1070,7 +1070,7 @@
   }
 
   .home__services-midtitle{
-    font-size: 3rem;
+    font-size: 2.5rem;
     width: inherit;
   }
     
@@ -1082,8 +1082,8 @@
     justify-content: space-around;
     align-items: center;
     margin-bottom: initial;
-    padding: 0rem 1rem;
-    gap: 3rem;
+    padding: 0rem 0rem;
+    gap: 1rem;
   }
 
   .home__portfolio{
@@ -1181,12 +1181,13 @@
   }
 
   .home__services-midtitle{
-    font-size: 3.5rem;
-    width: 360px;
+    font-size: 2.5rem;
+    width: 320px;
   }
   
   .home__services-img{
-    width: 360px;
+    width: inherit;
+    max-width: 520px;
     flex: 1;
     position: relative;
     bottom: 2rem;
@@ -1200,8 +1201,8 @@
     justify-content: space-around;
     align-items: center;
     margin-bottom: initial;
-    padding: 2rem 2rem;
-    gap: 3rem;
+    padding: 2rem 0rem;
+    gap: 1rem;
   }
 
   .home__planning-text{
