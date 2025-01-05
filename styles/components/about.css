@@ -345,7 +345,7 @@ padding: 0 1rem 2rem;
 }
 
   .corner__about-img{
-    max-width: 320px;
+    max-width: 334px;
     padding: inherit;
     position: relative;
     margin: initial;
@@ -371,7 +371,9 @@ padding: 0 1rem 2rem;
   }
 
   .corner__about-p{
-    padding: 0 2rem 2rem;
+    padding: 0 5rem 2rem;
+    width: 720px;
+    margin: 0 auto;
   }
 
   .about__me-text{
