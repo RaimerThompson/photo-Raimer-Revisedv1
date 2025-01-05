@@ -462,6 +462,10 @@
   font-weight: 100;
 }
 
+.home__services-text{
+  padding: 0 1rem;
+}
+
 .home__services-div{
   flex: 1;
   display: flex;
@@ -1202,7 +1206,11 @@
     align-items: center;
     margin-bottom: initial;
     padding: 2rem 0rem;
-    gap: 1rem;
+    gap: 2rem;
+  }
+
+  .home__services-text{
+    padding: 0 2rem;
   }
 
   .home__planning-text{
