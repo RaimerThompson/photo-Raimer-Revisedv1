@@ -277,17 +277,7 @@ padding: 0 1rem 2rem;
 
     
   .about__banner-text{
-    color: white;
-    font-family: SeaRegular;
-    text-align: center;
     font-size: 4.5rem;
-    font-weight: 100;
-    letter-spacing: 6px;
-    position: absolute;
-    left: 50%;
-    top: 65%;
-    transform: translate(-50%, -50%);
-    width: max-content;
   }
 
   .about__me{

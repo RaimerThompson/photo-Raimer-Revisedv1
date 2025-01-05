@@ -44,7 +44,7 @@
 .services__banner{
   background: url(/images/131.jpg);
   /* background-attachment: fixed; */
-  background-position: 50% 100%;
+  background-position: 50% 65%;
   background-size: cover;
   max-width: 2624px;
   height: 94vh;
@@ -62,7 +62,7 @@
   letter-spacing: 6px;
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 65%;
   transform: translate(-50%, -50%);
 }
 
