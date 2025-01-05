@@ -4,7 +4,6 @@
 
 .scroll__logo{
   color: white;
-  
 }
 
 .scroll__logo:hover{
@@ -34,12 +33,6 @@
 .header.scrolled .hamburger__btn.close{
   fill: white;
 }
-
-/* .services{
-  max-width: 2624px;
-  width: 80%;
-  margin: auto;
-} */
 
 .services__banner{
   background: url(/images/131.jpg);
@@ -285,7 +278,6 @@ padding: 0 0 2rem;
 }
 
 .phase-p-service{
-  width: 360px;
   height: 8rem;
 }
 
