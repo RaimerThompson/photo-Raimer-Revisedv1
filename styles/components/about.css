@@ -372,7 +372,7 @@ padding: 0 1rem 2rem;
 
   .corner__about-p{
     padding: 0;
-    width: 720px;
+    max-width: 720px;
     margin: 0 auto;
   }
 
