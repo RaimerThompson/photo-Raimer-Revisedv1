@@ -1145,7 +1145,7 @@
 
 
 .home__planning-img{
-  width: 220px;
+  width: 250px;
   /* flex: .5; */
   position: absolute;
   right: 0;
@@ -1248,7 +1248,7 @@
   }
 
   .home__planning-img{
-    width: 240px;
+    width: 290px;
   }
   
 }
@@ -1289,7 +1289,7 @@
   }
   
   .home__planning-img{
-    width: 260px;
+    width: 300px;
   }
   
 
@@ -1321,6 +1321,9 @@
     max-width: 30rem;
   }
   
+  .home__planning-img{
+    width: 320px;
+  }
 
 
 }  
