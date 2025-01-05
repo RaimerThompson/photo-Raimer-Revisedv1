@@ -555,7 +555,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  gap: 1rem;
+  gap: 1.75rem;
 }
 
 .faq__div{
@@ -572,13 +572,17 @@
   cursor: pointer;
 }
 
+.faq__question:hover{
+  color: #dfd9b6;
+}
+
 .faq__answer{
   max-height: 0;
   overflow: hidden;
   transition: max-height 550ms ease;
   padding-top: 1rem;
   line-height: 1.5rem;
-  font-size: 1rem;
+  font-size: 18px;
 }
 
 .faq__div.faq-active .faq__answer{
@@ -867,7 +871,7 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 4rem 1rem;
+    padding: 0 1rem 2rem;
     /* height: 20rem; */
   }
 
@@ -1013,30 +1017,6 @@
     gap: 0rem;
   }
 
-  .home__about{
-    position: relative;
-    padding: 0 2rem 2rem;
-  }
-
-  .home__about-div{
-    position: relative;
-    display: flex;
-    flex-direction: column-reverse;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 2rem;
-    gap: 0;
-  }
-
-  .home__about-img{
-    max-width: 360px;
-    padding: inherit;
-    position: relative;
-    margin: initial;
-    /* flex: .5; */
-  }
-    
   .home__phase{
     flex-direction: row;
   }
@@ -1124,6 +1104,22 @@
     max-width: 20rem;
     filter: opacity(.5);
   }
+
+  
+  .home__about{
+    position: relative;
+    padding: 0 2rem 2rem;
+  }
+
+  .home__about-img{
+    max-width: 400px;
+    width: initial;
+    padding: inherit;
+    position: relative;
+    margin: initial;
+    /* flex: .5; */
+  }
+    
   
 
   .home__about-div{
@@ -1137,11 +1133,6 @@
     margin-bottom: 2rem;
   }
   
-  .home__about-img{
-    width: 320px;
-    /* flex: .5; */
-  }
-
  .home__planning-div{
   position: relative;
   display: flex;
@@ -1242,7 +1233,7 @@
   .home__portfolio-title{
     font-size: 3.5rem;
   }
-  
+
   .home__portfolio-div{
     right: 4rem;
   }
@@ -1254,6 +1245,10 @@
 
   .home__portfolio-img{
     max-width: 25rem;
+  }
+
+  .home__planning-img{
+    width: 240px;
   }
   
 }
@@ -1291,6 +1286,10 @@
 
   .home__portfolio-img{
     max-width: 26rem;
+  }
+  
+  .home__planning-img{
+    width: 260px;
   }
   
 
