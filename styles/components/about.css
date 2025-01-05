@@ -367,19 +367,19 @@ padding: 0 1rem 2rem;
   }
 
   .about__me-img{
-    flex: .75;
+    flex: 1.25;
   }
 
   .corner__about-p{
-    padding: 0 8rem 2rem;
+    padding: 0 2rem 2rem;
   }
 
   .about__me-text{
-    padding: 0 8rem 2rem;
+    padding: 0 2rem 2rem;
     }
   
   .about__me-text-div{
-    flex: 1.5;
+    flex: 1.25;
     padding: 2rem 1rem 2rem;
     line-height: 0;
   }
@@ -391,7 +391,11 @@ padding: 0 1rem 2rem;
 }
 
 /* xL */
-/* @media (min-width: 1288px) {} */
+@media (min-width: 1288px) {
+  .about__me-text{
+    padding: 0 8rem 2rem;
+    }
+}
 
 /* 2xL */
 /* @media (min-width: 1536px) {}   */
