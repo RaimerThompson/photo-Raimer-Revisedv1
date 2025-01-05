@@ -217,10 +217,11 @@
 
 .home__text-p{
   font-family: Dream;
-  font-size: 1.5rem;
+  font-size: 1.35rem;
   letter-spacing: 1px;
   font-weight: 100;
   line-height: 1.5rem;
+  width: 18rem;
 }
 
 
@@ -903,7 +904,16 @@
 }
 
 /* sm */
-/* @media (min-width: 640px) {} */
+@media (min-width: 640px) {
+  .home__text-p{
+    font-family: Dream;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    font-weight: 100;
+    line-height: 1.5rem;
+    width: 32rem;
+  }
+}
 
 /* md */
 @media (min-width: 768px) {
