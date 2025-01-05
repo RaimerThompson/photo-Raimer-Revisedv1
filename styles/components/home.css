@@ -855,7 +855,7 @@
   }
   
   .home__portfolio-title{
-    font-size: 3.5rem;
+    font-size: 2.5rem;
   }
   
 
@@ -1098,12 +1098,32 @@
     justify-content: space-between;
     align-items: center;
   }
+
+  .home__portfolio-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 2;
+    position: relative;
+    right: 6rem;
+  }
+
+  .home__portfolio-title{
+    font-size: 3.5rem;
+  }
   
   .home__portfolio-modal-img{
     position: absolute;
-    max-width: 13rem;
-    right: 9rem;
+    max-width: 20rem;
+    right: -14rem;
     z-index: 20;
+  }
+
+  .home__portfolio-img{
+    max-width: 23rem;
+    filter: opacity(.5);
+  
   }
   
 
