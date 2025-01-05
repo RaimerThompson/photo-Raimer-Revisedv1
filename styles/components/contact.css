@@ -31,7 +31,17 @@
 .header.scrolled .hamburger__btn.close{
   fill: white;
 } */
+#nav{
+  background-color: #dfd9b6;
+}
 
+.scroll__btn{
+  fill: black;
+}
+
+.header__button{
+  display: none;
+}
 
 .contact__main{
   display: flex;
@@ -81,7 +91,7 @@
 
 .contact-container{
   position: relative;
-  z-index: 15;
+  z-index: 5;
   padding: 0;
 }
 
