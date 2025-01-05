@@ -136,10 +136,10 @@ padding: 0 0 2rem;
 .services__journey-button{
   background-color: #dfd9b6;
   border: none;
-  border-radius: 8px;
-  padding: .5rem 2.5rem;
-  /* width: 93px; */
+  border-radius: 1.25rem;
+  padding: .75rem 1.5rem;
   line-height: 16px;
+  letter-spacing: 1px;
   font-weight: 700;
 }
 
@@ -331,10 +331,10 @@ padding: 0 0 2rem;
  .services__planning-button{
    background-color: #dfd9b6;
    border: none;
-   border-radius: 8px;
-   padding: .5rem 2.5rem;
-   /* width: 93px; */
+   border-radius: 1.25rem;
+   padding: .75rem 1.5rem;
    line-height: 16px;
+   letter-spacing: 1px;
    font-weight: 700;
  }
 
