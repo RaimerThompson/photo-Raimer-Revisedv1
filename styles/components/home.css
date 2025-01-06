@@ -244,7 +244,6 @@
   position: relative;
   background-color: #efebe7;
   padding: 2rem 0rem;
-  
 }
 
 .home__value{
@@ -852,7 +851,7 @@
   }
 
   .home__sub-div{
-    padding: 2rem 2rem;
+    padding: 2rem .5rem;
   }
 }
 
