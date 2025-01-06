@@ -187,7 +187,7 @@
 }
 
 .home__sub-title{
-  margin-bottom: 1.5rem;
+  margin-bottom: 2.5rem;
   font-size: 3.5rem;
   text-align: center;
   font-weight: 100;
@@ -244,6 +244,7 @@
   position: relative;
   background-color: #efebe7;
   padding: 2rem 0rem;
+  
 }
 
 .home__value{
@@ -253,13 +254,14 @@
   align-items: center;
   text-align: center;
   margin-bottom: 2rem;
+  padding: 0 1rem .75rem;
 }
 
 .home__value-group{
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  gap: 2rem;
 }
 
 .home__value-title{
@@ -1004,6 +1006,15 @@
     align-items: inherit;
     justify-content: inherit;
     gap: 0;
+  }
+
+  .home__value{
+   padding: initial;
+  }
+
+  .home__value-group{
+   flex-direction: row;
+   gap: 2rem;
   }
 
   /* .home__sub-title{
