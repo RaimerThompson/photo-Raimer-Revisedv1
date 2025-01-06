@@ -651,7 +651,7 @@ padding: 0 0 2rem;
 
  .phase-p-slider{
   max-width: 420px;
-  height: inherit;
+  /* height: inherit; */
 }
 
  .phase-slider{
@@ -697,6 +697,9 @@ padding: 0 0 2rem;
   padding: 1rem;
 }
 
+.phase__div-slider{
+  height: 19rem;
+}
 .phase__div-service{
   height: 30rem;
 }
@@ -747,6 +750,10 @@ padding: 0 0 2rem;
     width: 360px;
   }  
 
+  /* .phase__div-slider{
+    height: 20rem;
+  } */
+
   .phase__div-service{
     height: 26rem;
   }
@@ -768,10 +775,10 @@ padding: 0 0 2rem;
     padding: 0 6rem 2rem;
     }
 
-    .phase__div-slider{
+    /* .phase__div-slider{
       padding: 6rem 1rem;
       height: 20rem;
-    }
+    } */
 
 
   .phase__div{
