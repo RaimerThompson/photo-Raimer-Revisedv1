@@ -138,6 +138,13 @@ padding: 0 0 2rem;
   font-weight: 100;
 }
 
+.slider__service{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .phase__div-slider{
   background-color: #efebe7;
   text-align: center;
