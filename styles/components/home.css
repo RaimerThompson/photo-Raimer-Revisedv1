@@ -304,7 +304,7 @@
   flex-direction: column-reverse;
   max-width: 360px;
   padding: 0 1rem;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 
 .home__test-img{
@@ -404,7 +404,7 @@
 
  .phase-p{
   width: 360px;
-  height: 13rem;
+  height: 10rem;
  }
 
 .phase__subtitle{
