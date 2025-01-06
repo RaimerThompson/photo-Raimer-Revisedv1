@@ -138,6 +138,131 @@ padding: 0 0 2rem;
   font-weight: 100;
 }
 
+.phase__div-slider{
+  background-color: #efebe7;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  padding: 1rem;
+  gap: 1rem;
+  position: relative;
+  height: 20rem;
+}
+
+.phase-slider{
+  background-color: #efebe7;
+  text-align: center;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  padding: 3rem 0 5rem;
+  gap: 1rem;
+}
+
+.phase-slider.phase-slider-active{
+  display: flex;
+}
+
+.phase-slider-active{
+  display: flex;
+}
+
+.phase__title-slider{
+  font-family: "Poppins", serif;
+  font-style: normal;
+  letter-spacing: 5px;
+}
+
+.phase-p-slider{
+  height: 10rem;
+  padding: 0 1rem;
+}
+
+.phase__dots-slider{
+  position: absolute;
+  bottom: 1.5rem;
+  z-index: 2;
+  cursor: default;
+}
+
+.phase__dots-slider span{
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin: 0 4px;
+  border-radius: 50%;
+  background-color: #dfd9b6;
+  cursor: pointer;
+}
+
+.phase__dots-slider span:hover{
+  background-color: white;
+}
+
+
+@keyframes next1 {
+  from{
+    left: 0%;
+  }to {
+    left: -100%;
+  }
+}
+@keyframes next2 {
+  from{
+    left: 100%;
+  }to {
+    left: 0%;
+  }
+}
+@keyframes prev1 {
+  from{
+    left: 0%;
+  }to {
+    left: 100%;
+  }
+}
+@keyframes prev2 {
+  from{
+    left: -100%;
+  }to {
+    left: 0%;
+  }
+}
+
+/* 
+.indicator{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0 auto;
+  bottom: 1rem;
+  z-index: 21;
+}
+
+
+.indicator div{
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  background-color: rgb(230, 230, 230);
+  border-radius: 50%;
+  text-align: center;
+  line-height: 1rem;
+  margin: 0 8px;
+  cursor: pointer;
+}
+
+.indicator div.active{
+  background-color: black;
+  opacity: .65;
+}  */
+
+
 
 .banner{
   position: relative;
@@ -517,8 +642,18 @@ padding: 0 0 2rem;
   padding-bottom: 2rem;
  }
 
+ .phase-p-slider{
+  max-width: 420px;
+  height: inherit;
+}
+
+ .phase-slider{
+  padding: 1rem;
+}
+
+
  .banner{
-  margin: 0rem 0 4rem;
+  margin: 4rem 0 4rem;
 }
 
 .banner__div-text{
@@ -547,7 +682,7 @@ padding: 0 0 2rem;
 }
 
 .phase-p-service{
-  width: 260px;
+  /* width: 260px; */
   height: inherit;
 }
 
@@ -597,6 +732,10 @@ padding: 0 0 2rem;
     padding: 1rem 2rem;
   }
 
+  .phase-p-slider{
+    max-width: 520px;
+  }  
+
   .phase-p-service{
     width: 360px;
   }  
@@ -620,6 +759,11 @@ padding: 0 0 2rem;
 
   .services__journey-text{
     padding: 0 6rem 2rem;
+    }
+
+    .phase__div-slider{
+      padding: 6rem 1rem;
+      height: 20rem;
     }
 
 
