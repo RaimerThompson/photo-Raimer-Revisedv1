@@ -9,6 +9,10 @@ function ServiceshowImg(e){
   if (e < 1){indexvalue = Simg.length}
   for (i = 0; i < Simg.length; i++){
     Simg[i].style.display = "none";
+    // ServiceSliderDot[i].style.background = "blue";
   }
   Simg[indexvalue - 1].style.display = "flex";
+  // ServiceSliderDot[indexvalue - 1].style.background = "red";
 }
+
+

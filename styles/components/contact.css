@@ -1,27 +1,29 @@
-/* .scroll__btn{
-  fill: rgb(0, 0, 0);
+.scroll__btn{
+  fill: black;
 }
 
 .scroll__logo{
-  color: rgba(0, 0, 0, 0.8);
+  color: white;
 }
 
 .scroll__logo:hover{
-  color: rgba(0, 0, 0, 0.8);
+  color: white;
 }
 
 .scroll__logo::after{
-  border: 1px solid rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, .8);
 }
 
 .header.scrolled #nav{
-  background-color: rgba(255, 255, 255, 0.75);
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .header.scrolled .scroll__logo,
 .header.scrolled .scroll__btn{
+  /* color: rgb(95, 45, 20, .8);
+  fill: rgb(95, 45, 20); */
   color: rgb(0, 0, 0);
-  fill: rgb(0, 0, 0);
+  fill: black;
 }
 
 .header.scrolled .scroll__logo::after{
@@ -30,10 +32,8 @@
 
 .header.scrolled .hamburger__btn.close{
   fill: white;
-} */
-#nav{
-  background-color: #dfd9b6;
 }
+
 
 .scroll__btn{
   fill: black;
@@ -43,12 +43,37 @@
   display: none;
 }
 
+
+.home__title{
+  top: 32%;
+  color: black;
+}
+
+.home__logo, 
+.title__logo,
+.title__sublogo,
+.title__botlogo{
+  color: black;
+}
+
+.contact__banner{
+  /* background: url(/images/131.jpg); */
+  /* background-attachment: fixed; */
+  background-color: #dfd9b6;
+  background-position: 50% 65%;
+  background-size: cover;
+  max-width: 2624px;
+  height: 30vh;
+  top: 0;
+  opacity: 1;
+  position: relative;
+}
+
 .contact__main{
   display: flex;
   flex-direction: column-reverse;
   background-color: #dfd9b6;
-  margin: 4rem 0;
-  padding: 4rem 0rem;
+  padding: 0rem 2rem 4rem;
   justify-content: space-evenly;
   align-items: flex-start;
 }
@@ -86,7 +111,7 @@
   padding: 2rem 1rem;
   margin-bottom: 2rem;
   text-align: center;
-  font-size: 3.5rem;
+  font-size: 3rem;
 }
 
 .contact-container{
@@ -183,7 +208,7 @@
 
 .asterisk{
   color: red;
-  opacity: .6;
+  opacity: .75;
 }
 
 .contact__form .contact__area{
@@ -268,8 +293,7 @@
   }
 
   .contact__main{
-    margin: 4rem 0;
-    padding: 4rem 2rem;
+    padding: 1rem 2rem 4rem;
   }
 
   .contact__text-div{
@@ -284,17 +308,24 @@
 /* md */
 @media (min-width: 768px) {
 
+  .home__title{
+    top: 26%;
+  }
+
   .contact-container{
     padding: 0 1.5rem;
     margin: initial;
   }
 
   .contact__main{
-    margin: 4rem 0;
     padding: 4rem 2rem;
     justify-content: space-evenly;
     align-items: flex-start;
     flex-direction: row;
+  }
+  
+  .contact__title{
+    font-size: 3.5rem;
   }
 
   .contact__image-div{
@@ -312,7 +343,12 @@
 }
 
 /* xL */
-/* @media (min-width: 1288px) {} */
+@media (min-width: 1288px) {
+  .home__title{
+    top: 17%;
+  }
+
+}
 
 /* 2xL */
 /* @media (min-width: 1536px) {}   */

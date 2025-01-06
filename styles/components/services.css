@@ -1,5 +1,5 @@
 .scroll__btn{
-  fill: white;
+  fill: black;
 }
 
 .scroll__logo{
@@ -297,6 +297,14 @@ padding: 0 0 2rem;
   border-radius: 50%;
   background-color: #dfd9b6;
   cursor: pointer;
+}
+
+.phase__dots-service span:hover{
+  background-color: white;
+}
+
+.dot__change{
+  background-color: rgba(255, 0, 0, 0.4);
 }
 
 .services__planning{

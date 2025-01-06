@@ -6,7 +6,7 @@ const sendEmail = (e) =>{
   e.preventDefault()
 
    // serviceID - templateID - #form - publicKey 
-  emailjs.sendForm('service_kmv55swsw9q', 'template_xnu3zswswqy', '#contact-form', 'IM4aNjqZUrkU_qswI4S')
+  emailjs.sendForm('service_42zcqx3', 'template_p7bx3dh', '#contact-form', 'lj1Xh9B_eqO7ZIAzp')
     .then(() =>{
   //show sent message 
     contactMessage.textContent = 'Thanks for Submitting!'
@@ -25,8 +25,4 @@ const sendEmail = (e) =>{
 }
 
 contactForm.addEventListener('submit', sendEmail);
-
-
-
-// Vs4d0AsUtYr3Zbvh_
 
