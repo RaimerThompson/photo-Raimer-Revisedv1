@@ -581,10 +581,14 @@
 }
 
 .faq__question{
-  font-family: Dream;
-  font-size: 1.75rem;
-  font-weight: 100;
+  /* font-family: Dream; */
+  font-size: 1.35rem;
+  letter-spacing: 2px;
+  font-family: "Poppins", serif;
+  font-style: normal;
+  font-weight: 300;
   cursor: pointer;
+  text-transform: uppercase;
 }
 
 .faq__question:hover{
