@@ -30,10 +30,10 @@ function SlidershowImg(e){
   // ServiceSliderDot[indexvalue - 1].style.background = "red";
 }
 
-const faqsNext = document.querySelectorAll('.next__step');
+// const faqsNext = document.querySelectorAll('.next__step');
 
-faqsNext.forEach(faqNext =>{
-  faqNext.addEventListener("click", ()=>{
-    faqNext.classList.toggle("next-active")
-  })
-})
+// faqsNext.forEach(faqNext =>{
+//   faqNext.addEventListener("click", ()=>{
+//     faqNext.classList.toggle("next-active")
+//   })
+// })
