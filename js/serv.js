@@ -29,3 +29,11 @@ function SlidershowImg(e){
   Slideimg[indexvalue - 1].style.display = "flex";
   // ServiceSliderDot[indexvalue - 1].style.background = "red";
 }
+
+const faqsNext = document.querySelectorAll('.next__step');
+
+faqsNext.forEach(faqNext =>{
+  faqNext.addEventListener("click", ()=>{
+    faqNext.classList.toggle("next-active")
+  })
+})
