@@ -409,6 +409,16 @@ padding: 0 0 2rem;
   letter-spacing: 5px;
 }
 
+.phase__subtitle-service{
+  font-family: "Poppins", serif;
+  font-style: normal;
+  letter-spacing: 2px;
+  line-height: 2px;
+  font-size: 12px;
+  padding-bottom: 6px;
+  font-weight: 400;
+}
+
 .phase-p-service{
   height: 10rem;
   padding: 0 1rem;
