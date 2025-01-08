@@ -153,7 +153,7 @@ padding: 0 0 2rem;
   align-items: center;
   justify-content: center;
   flex: 1;
-  padding: 1rem;
+  /* padding: 1rem; */
   gap: 1rem;
   position: relative;
   height: 20rem;
@@ -381,7 +381,7 @@ padding: 0 0 2rem;
   align-items: center;
   justify-content: center;
   flex: 1;
-  padding: 1rem;
+  /* padding: 1rem; */
   gap: 1rem;
   position: relative;
   height: 20rem;
@@ -538,7 +538,6 @@ padding: 0 0 2rem;
 
 
 
-
 /* Mobile */
 @media (min-width: 330px) {
 
@@ -612,6 +611,11 @@ padding: 0 0 2rem;
    .banner__div-text{
     font-size: 2rem;
   }
+
+  .phase-p-service{
+    width: 260px;
+    height: inherit;
+  }
   
   
   .service__phase-title{
@@ -672,7 +676,6 @@ padding: 0 0 2rem;
 
  .phase-p-slider{
   max-width: 420px;
-  /* height: inherit; */
 }
 
  .phase-slider{

@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background-color: #dfd9b6;
+  background-color: #efebe7;
   padding: 1rem;
   height: 30rem;
 }
@@ -65,7 +65,7 @@
 }
 
 .footer ul li a:hover{
-  opacity: .85;
+  opacity: .5;
 }
 
 .footer__left ul{
@@ -120,7 +120,7 @@
 }
 
 .copyright{
-  background-color: #dfd9b6;
+  background-color: #efebe7;
   position: relative;
 }
 
@@ -135,11 +135,12 @@
   margin-right: auto;
   padding: 1.5rem 0;
   letter-spacing: 1.5px;
-  font-size: 6.25px;
+  font-size: 8.5px;
+  width: 75%;
 }
 
 .footer__back:hover{
-  opacity: .95;
+  opacity: .75;
 }
 
 .footer__back a{
@@ -182,8 +183,8 @@
   }
 
   .footer__copyright{
-    font-size: 8.5px;
-    /* width: 90%; */
+    font-size: 9.5px;
+    width: inherit;
   }
 
   .footer__credit{
@@ -206,8 +207,7 @@
   .footer__copyright{
     flex-direction: column;
     justify-content: space-between;
-    /* width: 80%; */
-    font-size: 8.5px;
+    font-size: 10.5px;
   }
 }
 
@@ -219,7 +219,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-color: #dfd9b6;
+    background-color: #efebe7;
     padding: 1rem;
     gap: 6rem;
     height: 20rem;
@@ -245,6 +245,7 @@
   flex-direction: column;
   align-items: flex-end;
   gap: 10px;
+  bottom: 10px;
 }
 
   .footer__copyright{
@@ -261,26 +262,30 @@
     right: 0;
     top: 8.5rem;
     z-index: 2;
+    font-weight: 500;
 }
 
 
   .footer__back{
-    font-family: Camron;
-    position: absolute;
-    bottom: 1rem;
-    left: 1rem;
+    font-family: "Poppins", serif;
+    font-style: normal;
+    position: relative;
+    letter-spacing: 1.5px;
+    top: 8rem;
+    z-index: 3;
     font-size: 8px;
-    font-weight: 900;
+    font-weight: 400;
   }
 
   .footer__back::after{
     content: '^';
-    /* font-family: Camron; */
+    font-family: "Poppins", serif;
+    font-style: normal;
     position: absolute;
-    bottom: .75rem;
-    right: 2rem;
+    bottom: .9rem;
+    right: 1.75rem;
     font-size: 12px;
-    font-weight: 900;
+    font-weight: 400;
   }
 }
 

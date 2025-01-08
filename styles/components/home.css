@@ -375,7 +375,7 @@
   align-items: center;
   justify-content: center;
   flex: 1;
-  padding: 1rem;
+  /* padding: 1rem; */
   gap: 1rem;
   position: relative;
   height: 20rem;
@@ -414,8 +414,9 @@
 }
 
  .phase-p{
-  width: 360px;
-  height: 10rem;
+  max-width: 360px;
+  height: 12rem;
+  padding: 0 1rem;
  }
 
 .phase__dots{
@@ -845,6 +846,11 @@
     font-size: 2.5rem;
   }
   
+  .phase-p{
+    width: 260px;
+    height: inherit;
+    padding: inherit;
+  }
 
   .home__phase-text{
     padding: 1rem 3rem 1.5rem;
@@ -1035,6 +1041,7 @@
   .phase-p{
     width: 260px;
     height: inherit;
+
   }
 
   .home__phase-text{
@@ -1118,10 +1125,11 @@
 
   .home__faq{
     flex-direction: row;
-    text-align: center;
+    text-align: left;
     justify-content: center;
     align-items: center;
     gap: 3rem;
+    padding: 1rem 2rem;
   }
 
   .home__faq-div-container{
