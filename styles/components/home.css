@@ -1161,6 +1161,37 @@
     filter: opacity(.5);
   }
 
+  
+  .home__portfolio{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding-top: 0;
+    margin: 0 2rem 2rem;
+    background-color: #efebe7;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  
+
+  .home__portfolio-img{
+    max-width: 15rem;
+    filter: opacity(.5);
+    padding-top: 0;
+    left: inherit;
+    /* flex: .5; */
+  }
+
+  .home__portfolio-modal-img{
+    position: absolute;
+    max-width: 11rem;
+    right: -4rem;
+    bottom: inherit;
+    z-index: 20;
+    padding: 0;
+  }
+
   .home__faq{
     flex-direction: row;
     text-align: left;
