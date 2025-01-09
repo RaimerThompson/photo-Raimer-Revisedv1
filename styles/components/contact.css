@@ -82,7 +82,7 @@
 .contact__image-div{
   display: flex;
   flex-direction: column;
-  padding: 2rem 1rem;
+  padding: 2rem 0rem;
   margin: 0 auto;
 }
 
@@ -295,7 +295,11 @@
 
 
 /* Mobile */
-/* @media (min-width: 330px) {} */
+@media (min-width: 330px) {
+  .contact__image-div{
+    padding: 2rem 1rem;
+  }
+}
 
 /* xs */
 @media (min-width: 475px) {
