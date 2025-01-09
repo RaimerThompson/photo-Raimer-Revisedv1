@@ -76,6 +76,7 @@
 }
 
 .title__sub-logo{
+  color: white;
   font-family: "Poppins", serif;
   font-style: normal;
   font-size: .55rem;
@@ -98,6 +99,11 @@
   left: 0;
   right: 0;
   font-family: SeaLight;
+}
+
+.home__title-button{
+  border: none;
+  color: initial;
 }
 
 .dash{
