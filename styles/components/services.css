@@ -188,7 +188,7 @@ padding: 0 0 2rem;
 }
 
 .phase-p-slider{
-  height: 5rem;
+  height: 10rem;
   padding: 0 1rem;
 }
 
@@ -577,7 +577,7 @@ padding: 0 0 2rem;
 }
 
 .phase__wrapper{
-  height: 20rem;
+  height: 18rem;
 }
 
 .phase-p-service{
@@ -724,6 +724,12 @@ padding: 0 0 2rem;
 
  .phase-p-slider{
   max-width: 420px;
+  height: 7rem;
+}
+
+.swiper {
+  height: 17rem;
+  margin: 1rem 0;
 }
 
  .phase-slider{
