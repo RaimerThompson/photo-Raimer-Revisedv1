@@ -44,7 +44,7 @@
         <li class="header__link"><a class="active" href="index.html">HOME</a></li>
         <li class="header__link"><a href="about.html">ABOUT</a></li>
         <li class="header__link"><a href="services.html">SERVICES</a></li>
-        <!-- <li class="header__link"><a href="portfolio.html">PORTFOLIO</a></li> -->
+        <li class="header__link"><a href="portfolio.html">PORTFOLIO</a></li>
         <li class="header__link"><a href="contact.html">CONTACT</a></li>
         <li class="header__link"><a target=”_blank” href="https://piecesofmivida.com/">BLOG</a></li>
       </ul>
@@ -90,6 +90,13 @@
     <h3 class="services__main-subtitle">Across multiple continents</h3>
     <p class="services__main-text">We create an experience for you and your guests that starts and ends with moments you’ll want to relive forever. Our team pays attention to even the smallest details, delivering our signature experience alongside a team of vendors who align with your vision and our values, no matter where your wedding journey takes you.</p>
   </section>
+
+
+  <!-- <section>
+    <div id="myVideo" autoplay="true" data-vimeo-loop="true" data-vimeo-id="1045580809" width="200px">
+ 
+    </div>
+  </section> -->
 
   <section class="services__journey">
     <div class="services__journey-div">
@@ -281,8 +288,19 @@
     </div>
   </section>  
   
+<script>
+  var options = {
+    url: "https://player.vimeo.com/video/1045580809?portrait=0&byline=0",
+    width: 1200
+  };
 
+  var videoPlayer = new Vimeo.Player('myVideo', options);
 
+  videoPlayer.on('play', function() {
+    // console.log('Played the video');
+  });
+</script>
+<script src="https://player.vimeo.com/api/player.js"></script>
   <!-- Swiper JS -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="js/serv.js"></script>
