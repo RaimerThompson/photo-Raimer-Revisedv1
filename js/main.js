@@ -46,3 +46,5 @@ function autoPlay(){
   nextSlide();
 }
 let timer = setInterval(autoPlay, 4000)
+
+
