@@ -420,12 +420,6 @@
   font-weight: 400;
 }
 
- .phase-p{
-  max-width: 360px;
-  height: 12rem;
-  padding: 0 1rem;
- }
-
 .phase__dots{
   position: absolute;
   bottom: 1.5rem;
@@ -837,7 +831,7 @@
 }
 
 .phase__wrapper{
-  height: 18rem;
+  height: 21rem;
 }
 
 .phase-p{
