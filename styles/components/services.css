@@ -563,7 +563,7 @@ padding: 0 0 2rem;
   background: white;
 }
 
-.phase__swiper{
+.phase__swiper-service{
   flex: 1;
   gap: 1rem;
   position: relative;
@@ -576,7 +576,7 @@ padding: 0 0 2rem;
   justify-content: center;
 }
 
-.phase__wrapper{
+.phase__wrapper-service{
   height: 18rem;
 }
 
@@ -790,7 +790,7 @@ padding: 0 0 2rem;
 .phase__div-slider{
   height: 19rem;
 }
-.phase__swiper{
+.phase__swiper-service{
   height: 30rem;
 }
 
@@ -844,7 +844,7 @@ padding: 0 0 2rem;
     height: 20rem;
   } */
 
-  .phase__swiper{
+  .phase__swiper-service{
     height: 26rem;
   }
   
