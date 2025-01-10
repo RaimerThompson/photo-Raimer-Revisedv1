@@ -10,6 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles/components/header.css">
   <link rel="stylesheet" href="styles/components/home.css">
+  <link rel="stylesheet" href="styles/components/swiper-bundle.min.css">
   <link rel="stylesheet" href="styles/components/footer.css">
   <link rel="stylesheet" href="styles/components/services.css">
   <link rel="stylesheet" href="styles/styles.css">
@@ -128,6 +129,27 @@
      
    </section>
 
+
+   <!-- Swiper -->
+<div class="swiper mySwiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+      <h4 class="phase__title-slider">PLANNERS</h4>
+      <p class="phase-p-slider">Choosing us means you get to leave it all to the experts and spend your engagement enjoying the little moments instead of stressing over having to communicate your vision with everyone </p>
+    </div>
+    <div class="swiper-slide">
+      <h4 class="phase__title-slider">INNOVATORS</h4>
+      <p class="phase-p-slider">Choosing us means a wedding that uses the industry’s newest methods and technology to create a modern design far from re-creating a fading trend.</p>
+    </div>
+    <div class="swiper-slide">
+      <h4 class="phase__title-slider">DESIGNERS</h4>
+      <p class="phase-p-slider">Choosing us means having a wedding that is aesthetically cohesive from beginning to end rooted in something truly personal.</p>
+    </div>
+  </div>
+  <div class="swiper-pagination"></div>
+ </div>
+ 
+
    
    <section class="banner">
     <!-- <span class="banner-ny">NEW YORK</span> -->
@@ -184,6 +206,13 @@
       </div>
     </div>
   </section>
+
+
+  
+</section>
+
+
+
 
   <section class="service__next">
     <h3 class="service__next-title">what happens next...</h3>
@@ -282,7 +311,25 @@
   
 
 
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      on: {
+    init: function() {
+      if (this.slides.length <= 1) {
+        this.pagination.el.style.display = 'none';
+      }
+    }
+  }
+    });
+  </script>
 
   <script src="js/serv.js"></script>
   <script src="js/touch.js"></script>

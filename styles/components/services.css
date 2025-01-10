@@ -539,6 +539,33 @@ padding: 0 0 2rem;
    font-weight: 100;
  }
 
+ .swiper {
+  height: 20rem;
+  margin: 1rem 0
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background-color: #efebe7 ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-pagination-bullet {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  text-align: center;
+  opacity: 1;
+  background: #dfd9b6;
+}
+
+.swiper-pagination-bullet-active {
+  background: white;
+}
 
 
 /* Mobile */
