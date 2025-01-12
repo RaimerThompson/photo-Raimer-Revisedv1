@@ -278,9 +278,16 @@ img{
   padding: 2rem 0;
   font-size: 1.5rem;
 }
+.privacy h4{
+  padding: 2rem 0 0;
+}
 
 .privacy li{
   padding: 0 2rem 10px;
+}
+
+.privacy span{
+  padding: 0 0rem 20px;
 }
 
 .privacy-div{
