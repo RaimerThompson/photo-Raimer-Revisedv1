@@ -156,17 +156,14 @@
   font-size: 12px;
 }
 
-.privacy-policy{
+.privacy-policy,
+.terms,
+.photo-credit{
   color: inherit;
   opacity: .85;
   text-decoration: none;
 }
 
-.terms{
-  color: inherit;
-  opacity: .85;
-  text-decoration: none;
-}
 
 
 /* xs */
