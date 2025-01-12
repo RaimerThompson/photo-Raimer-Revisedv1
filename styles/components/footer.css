@@ -158,10 +158,14 @@
 
 .privacy-policy{
   color: inherit;
+  opacity: .85;
+  text-decoration: none;
 }
 
 .terms{
   color: inherit;
+  opacity: .85;
+  text-decoration: none;
 }
 
 
