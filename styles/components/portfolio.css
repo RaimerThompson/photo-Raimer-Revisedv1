@@ -260,8 +260,28 @@ img{
   grid-row-start: span 1;
 }
 
+.privacy{
+  padding: 1rem;
+  margin: 2rem 0;
+}
 
+.privacy p{
+  padding-bottom: 1rem;
+}
 
+.privacy h2{
+  padding-bottom: 2rem;
+  font-size: 2.5rem;
+  text-align: center;
+}
+.privacy h3{
+  padding: 2rem 0;
+  font-size: 1.5rem;
+}
+
+.privacy li{
+  padding: 0 2rem 10px;
+}
 
 
 
