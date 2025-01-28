@@ -1,12 +1,12 @@
-const contactForm = document.getElementById('contact-form'),
-contactMessage = document.getElementById('contact-message')
 
+const contactForm = document.getElementById('contact-form'),
+      contactMessage = document.getElementById('contact-message')
 
 const sendEmail = (e) =>{
   e.preventDefault()
 
    // serviceID - templateID - #form - publicKey 
-  emailjs.sendForm('service_42zcqx3', 'template_p7bx3dh', '#contact-form', 'lj1Xh9B_eqO7ZIAzp')
+  emailjs.sendForm('service_kmv559q', 'template_xnu3zqy', '#contact-form', 'IM4aNjqZUrkU_qI4S')
     .then(() =>{
   //show sent message 
     contactMessage.textContent = 'Thanks for Submitting!'
@@ -25,4 +25,9 @@ const sendEmail = (e) =>{
 }
 
 contactForm.addEventListener('submit', sendEmail);
+
+
+
+// Vs4d0AsUtYr3Zbvh_
+
 

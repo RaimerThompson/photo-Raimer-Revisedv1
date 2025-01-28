@@ -1,0 +1,171 @@
+#nav{
+  display: flex;
+  justify-content: space-between;
+  position: inherit; 
+  align-items: center;
+  top: 0;
+  right: 0;
+  left:0;
+  z-index: 100;
+  padding: 1rem 1rem 1.5rem;
+  /* margin-bottom: .85rem; */
+  transition: background-color .4s ease-in-out; 
+}
+
+#navbar{
+  z-index: 100;
+}
+
+.header__logo{
+  color: black;
+  z-index: 1;
+}
+
+.hamburger__btn{
+  fill: black;
+}
+
+.blog-banner-img{
+  color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  font-family: Custom;
+  font-size: 6.5rem;
+  font-weight: 100;
+  letter-spacing: 1px;
+  position: relative;
+  bottom: -2rem;
+  background: url(/img/Weddings/wed318.jpg);
+  background-position:center bottom 40%;
+  background-size: cover;
+  max-width: 2624px;
+  height: 75vh;
+  top: 0;
+  opacity: 1;
+  z-index: 1;
+}
+
+.blog-banner-subtext{
+  position: absolute;
+  font-size: 10px;
+  color: black;
+  letter-spacing: 3px;
+  font-family: "Varela Round", sans-serif;
+  min-width: 260px ;
+  text-align: center;
+  text-transform: uppercase;
+  transform: rotate(-90deg);
+  top: 10.25rem;
+  right: -8.75rem;
+}
+
+.blog{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-banner-text{
+  position: absolute;
+  font-size: 2rem;
+  bottom: -2.5rem;
+  right: 8px;
+  color: black;
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  /* width: 235px; */
+  z-index: 15;
+}
+
+.blog-posts{
+  position: relative;
+  margin-top: 3rem;
+}
+
+.blog-gallery{
+  position: relative;
+  padding: 2rem;
+}
+
+.blog-gallery-img{
+  transition: opacity 500ms ease;
+}
+
+.blog-gallery-img:hover{
+  opacity: .75;
+}
+
+.blog-title-text{
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.35rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+.blog-subtext{
+  font-family: Marker;
+  font-size: .75rem;
+  position: absolute;
+  right: 2rem;
+  bottom: .5rem;
+}
+
+/* 
+.row{
+  width: 50%;
+  float: left;
+  padding-bottom: 18px !important;
+} */
+
+/* .landscape{
+  width: 100%;
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+  padding-bottom: 15px !important;
+}
+ */
+
+
+/* xs */
+ @media (min-width: 475px) {
+  .blog-subtext{
+    font-size: 1rem;
+  }
+
+  .blog-gallery{
+    padding: 4rem;
+  }
+ } 
+
+/* sm */
+/* @media (min-width: 640px) {} */
+
+/* md */
+@media (min-width: 768px) {
+  .blog-gallery{
+    display: flex;
+    gap: 4rem;
+  }
+
+  .blog-banner-text{
+    font-size: 4.5rem;
+    bottom: -2.25rem;
+  }
+}
+
+/* Lg */
+@media (min-width: 1024px) {
+  .blog-gallery{
+    display: flex;
+    gap: 8rem;
+  }
+}
+
+/* xL */
+/* @media (min-width: 1288px) {} */
+
+/* 2xL */
+/* @media (min-width: 1536px) {}   */
+

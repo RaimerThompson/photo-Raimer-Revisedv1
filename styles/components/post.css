@@ -1,0 +1,266 @@
+#nav{
+  display: flex;
+  justify-content: space-between;
+  position: inherit; 
+  align-items: center;
+  top: 0;
+  right: 0;
+  left:0;
+  z-index: 100;
+  padding: 1rem 1rem 1.5rem;
+  /* margin-bottom: .85rem; */
+  transition: background-color .4s ease-in-out; 
+}
+
+#navbar{
+  z-index: 100;
+}
+
+.header__logo{
+  color: black;
+  z-index: 1;
+}
+
+.hamburger__btn{
+  fill: black;
+}
+
+
+.post{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.post-banner-text{
+  position: absolute;
+  font-size: 3.25rem;
+  bottom: -3.5rem;
+  right: 6px;
+  color: black;
+  font-family: Custy;
+  /* width: 235px; */
+  z-index: 15;
+}
+
+.post-gallery-div{
+  position: relative;
+  margin-top: 3rem;
+}
+
+.post-gallery{
+  position: relative;
+  padding: 2rem;
+}
+
+.post-gallery-img{
+  transition: opacity 500ms ease;
+}
+
+.post-title-text{
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.post-subtext{
+  font-family: Marker;
+  font-size: .75rem;
+  position: absolute;
+  right: 2rem;
+  bottom: .5rem;
+}
+
+.blog-post-gallery{
+  padding: 1rem 1rem;
+  width: 100%;
+  margin-bottom: 10px;
+  break-inside: avoid;
+}
+
+.blog-title-text{
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 2.5rem;
+  padding: 1rem 0;
+}
+
+.blog-text{
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: .25px;
+  /* text-align: center; */
+  font-size: 1rem;
+  line-height: 2rem;
+  padding-bottom: 2rem;
+}
+
+.bottom-text{
+  padding-top: 2rem;
+  padding-bottom: 0;
+}
+
+img{
+  border: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+
+.row{
+  width: 50%;
+  /* float: left; */
+  padding-bottom: 8px !important;
+} 
+
+.odd{
+  float: left;
+  padding-right: 4px !important;
+  padding-left: 1rem !important;
+}
+.even{
+  float: left;
+  padding-right: 1rem !important;
+  padding-left: 4px !important;
+}
+
+.landscape{
+  width: 100%;
+  padding-right: 1rem !important;
+  padding-left: 1rem !important;
+  padding-bottom: 8px !important;
+}
+
+
+.post-contact-banner{
+  background-color: rgba(247, 247, 247, .95);
+  padding: 3rem;
+  position: relative;
+}
+
+.post-contact-button{
+  padding: 1.5rem 2rem;
+  font-size: 1rem;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 100;
+  position: relative;
+  border: none;
+  letter-spacing: 3px;
+  background-color: white;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.post-contact-button:hover{
+  opacity: .5;
+}
+
+
+
+.footer{
+  clear: both;
+}
+
+/* xs */
+ @media (min-width: 475px) {
+  .post-subtext{
+    font-size: 1rem;
+  }
+
+  .post-gallery{
+    padding: 4rem;
+  }
+
+  .blog-post-gallery{
+    padding: 0 3rem;
+  }
+ } 
+
+/* sm */
+/* @media (min-width: 640px) {} */
+
+/* md */
+@media (min-width: 768px) {
+
+  .post{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .post-title-text{
+    flex: 1;
+  }
+
+  .post-gallery-div{
+    flex: 2;
+  }
+
+  .post-gallery{
+    display: flex;
+    gap: 4rem;
+    padding: 0 7rem;
+  }
+  
+
+  .row{
+    width: 50%;
+    /* float: left; */
+    padding-bottom: 8px !important;
+  } 
+  
+  .odd{
+    float: left;
+    padding-right: 4px !important;
+    padding-left: 10rem !important;
+  }
+  .even{
+    float: left;
+    padding-right: 10rem !important;
+    padding-left: 4px !important;
+  }
+  
+  .landscape{
+    width: 100%;
+    padding-right: 10rem !important;
+    padding-left: 10rem !important;
+    padding-bottom: 8px !important;
+  }
+
+  .blog-post-gallery{
+    padding: 3rem 3rem 0;
+  }
+
+  .post-contact-banner{
+    padding: 3rem 10rem;
+    top: initial;
+  }
+
+  .post-contact-button{
+    padding: 4rem;
+  }
+}
+
+/* Lg */
+@media (min-width: 1024px) {
+  .post-gallery{
+    display: flex;
+    gap: 8rem;
+  }
+}
+
+/* xL */
+/* @media (min-width: 1288px) {} */
+
+/* 2xL */
+/* @media (min-width: 1536px) {}   */
+

@@ -1,37 +1,48 @@
 @font-face{
-  font-family: Mel;
-  src: url(/fonts/MelanicBlackSerifDemo-Regular.ttf)
+  font-family: Custy;
+  src: url(/fonts/Bernadette\ Signature.ttf)
 }
 
 @font-face{
-  font-family: Dolce;
-  src: url(/fonts/Dolce.ttf)
+  font-family: Header;
+  src: url(/fonts/LEMONMILK-Regular.otf)
 }
 
-@font-face {
-  font-family: Balerno;
-  src: url(/fonts/Balerno-Rg.ttf);
+@font-face{
+  font-family: Portfolio;
+  src: url(/fonts/Gilgan.otf)
 }
-@font-face {
-  font-family: Camron;
-  src: url(/fonts/CammronDemo.ttf);
+
+@font-face{
+  font-family: Marker;
+  src: url(/fonts/Marker\ Comp.ttf)
 }
-@font-face {
-  font-family: Comma;
-  src: url(/fonts/Brigfted.otf);
+
+@font-face{
+  font-family: Para;
+  src: url(/fonts/Garet-Book.otf)
 }
-@font-face {
-  font-family: Dream;
-  src: url(/fonts/FontsFree-Net-Dream-Avenue.ttf);
+
+@font-face{
+  font-family: Link;
+  src: url(/fonts/LOVES.ttf)
 }
-@font-face {
-  font-family: SeaLight;
-  src: url(/fonts/theseasons-lt.otf);
+
+@font-face{
+  font-family: Modern;
+  src: url(/fonts/fonnts.com-MinervaModern_Regular.otf)
 }
-@font-face {
-  font-family: SeaRegular;
-  src: url(/fonts/theseasons-reg.otf);
+
+/* @font-face{
+  font-family: Title;
+  src: url(/fonts/Rossesie.ttf)
+} */
+
+@font-face{
+  font-family: Title;
+  src: url(/fonts/Jekaterina.ttf)
 }
+
 
 
 
@@ -47,10 +58,15 @@ html {
 }
 
 body {
-  font-family:  "Cormorant Garamond", serif;
-  font-style: normal;
+  font-family: "Varela Round", sans-serif;
   color: black;
-  font-size: 18px;
+  background-color: rgb(245, 245, 245);
+  
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
 }
 
 

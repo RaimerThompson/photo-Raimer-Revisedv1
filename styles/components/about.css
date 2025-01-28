@@ -1,392 +1,630 @@
-.scroll__btn{
-  fill: white;
+.head{
+  color: black;
+  font-weight: 600;
 }
 
-.scroll__logo{
-  color: white;
-  
+.head:hover{
+  opacity: .5;
 }
 
-.scroll__logo:hover{
-  color: white;
+.header__link{
+  padding-right: 6px;
+  padding-top: .75rem;
+  color: black;
+  font-weight: 400;
 }
 
-.scroll__logo::after{
-  border: 1px solid rgba(255, 255, 255, .8);
+
+.header__logo{
+  color: black;
 }
 
-.header.scrolled #nav{
-  background-color: rgba(255, 255, 255, 0.5);
-}
-
-.header.scrolled .scroll__logo,
-.header.scrolled .scroll__btn{
-  /* color: rgb(95, 45, 20, .8);
-  fill: rgb(95, 45, 20); */
-  color: rgb(0, 0, 0);
+.hamburger__btn{
   fill: black;
 }
 
-.header.scrolled .scroll__logo::after{
-  border: 1px solid rgba(0, 0, 0, 0.3);
-}
-
-.header.scrolled .hamburger__btn.close{
-  fill: black;
-}
-
-
-.about__banner{
-  background: url(/images/casa-conde-cartagena-colombia-wall-and-greenery.jpg);
-  background-position: 15% 100%;
-  background-size: cover;
-  max-width: 2624px;
-  height: 94vh;
-  top: 0;
-  opacity: 1;
+.about-container{
   position: relative;
-}
-
-.about__banner-text{
-  color: white;
-  font-family: SeaRegular;
-  text-align: center;
-  font-size: 2.5rem;
-  font-weight: 100;
-  letter-spacing: 6px;
-  position: absolute;
-  left: 50%;
-  top: 65%;
-  transform: translate(-50%, -50%);
-}
-
-.about__main{
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   justify-content: center;
   align-items: center;
-  padding: 4rem 2rem;
+  margin: auto 3rem;
+  gap: 3rem;
+  margin-top: 5.5rem;
+  font-size: 10px;
+  background-color: rgba(247, 247, 247, .45);
+}
+
+.about1{
+  position: relative;
+}
+
+.about1 h2{
+  line-height: 1.75rem;
+  font-weight: 400;
+  letter-spacing: .15px;
+  padding: 1.6rem 2.5rem;
+  background-color: white;
   text-align: center;
+
 }
 
-.about__main-title{
-  font-family: Dream;
-  font-weight: 100;
-  font-size: 2.5rem;
-}
-
-.about__me{
-  position: relative;
-}
-
-.about__me-div{
-  position: relative;
+.about-span{
+  width: 2.5rem;
+  height: 0;
+  border: 1px solid #C4C4C4;
+  margin: 3px;
   display: flex;
-  flex-direction: column;
-  text-align: center;
-  justify-content: space-between;
-  gap: 2rem;
-  margin-bottom: 2rem;
-}
-
-.about__me-img{
-  max-width: 360px;
-  flex: 1;
-  padding: 0 1rem;
-  margin: 0 auto;
-}
-
-.about__me-text-div{
-  /* flex: 1; */
-  padding: 3rem 1rem;
-  line-height: 6rem;
-  background-color: #efebe7;
-}
-
-.about__me-text{
-padding: 0 1rem 2rem;
-}
-
-.about__quote{
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  max-width: 630px;
-  margin: 3rem auto;
-  gap: 20px;
-}
-
-.about__quote-span{
-  font-family: Dream;
-  font-weight: 100;
-  font-size: 18px;
-}
-
-.about__quote-text{
-  padding: 0 2rem;
-}
-
-.corner__about{
-  position: relative;
-}
-
-.corner__about-div{
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  justify-content: center;
-  margin-bottom: 4rem;
-  gap: 1.5rem;
-}
-
-.corner__about-img{
-  max-width: 360px;
-  padding: 0 1rem;
-  position: relative;
-  margin: 0 auto;
-  /* flex: .5; */
-}
-
-.corner__about-text{
-  flex: 1;
-  padding: 3rem 2rem;
-  line-height: 6rem;
-  background-color: #efebe7;
-}
-
-.corner__about-title{
-  font-family: Dream;
-  font-size: 2.5rem;
-  font-weight: 100;
-  padding-bottom: 2.5rem;
- }
-
-.bold{
-  font-family: Dream;
-  font-size: 24px;
-}
-
-.about__planning{
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  justify-content: center;
-  margin-bottom: 3rem;
-}
-
-.about__planning-text{
-  flex: 2;
-  padding: 1.5rem 2rem;
-  line-height: 6rem;
-  background-color: #efebe7;
-}
-
-.about__planning-title{
-  font-family: Dream;
-  font-size: 2.5rem;
-  font-weight: 100;
-  padding: 0rem 0rem 0;
+  margin-left: auto;
+  margin-right: auto;
   position: relative;
   top: 1.5rem;
- }
-
- .about__planning-button{
-   background-color: #dfd9b6;
-   border: none;
-   border-radius: 1.25rem;
-   padding: .75rem 1.5rem;
-   line-height: 16px;
-   letter-spacing: 1px;
-   font-weight: 700;
-   font-family: SeaRegular;
-   font-weight: 100;
- }
-
-
-
-/* Mobile */
-@media (min-width: 330px) {
-
-  .about__banner-text{
-    font-size: 3rem;
-  }
-
-  .about__main-title{
-    font-size: 3rem;
-  }
-
-  .corner__about-title{
-    font-size: 3rem;
-   }
-
-  .about__planning-title{
-    font-size: 3rem;
-   }
+  text-align: center;
+  background-color: white;  
 }
 
-/* md mobile */
-@media (min-width: 400px) {
+.about-banner-text{
+  position: absolute;
+  font-size: 2rem;
+  bottom: -2.5rem;
+  right: 8px;
+  color: black;
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  /* width: 235px; */
+  z-index: 15;
+}
+
+.about-banner-img{
+  color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  font-family: Custom;
+  font-size: 6.5rem;
+  font-weight: 100;
+  letter-spacing: 1px;
+  position: relative;
+  bottom: -2rem;
+  background: url(/img/Raimer002.jpg);
+  background-position: center bottom 50%;
+  background-size: cover;
+  max-width: 2624px;
+  height: 75vh;
+  top: 0;
+  opacity: 1;
+  filter: grayscale(100%);
+}
+
+.about1{
+  flex: 1;
+  max-width: 300px;
   
-  .about__me-img{
-    padding: inherit;
+}
+
+.about2{
+  max-width: 300px;
+  flex: 1;
+  position: relative;
+}
+
+.about2-img{
+  border: 10px solid white;
+  border-bottom: 3rem solid white;
+}
+
+.about2-span{
+  position: absolute;
+  bottom: 10px;
+  right: 1rem;
+  font-family: Marker ;
+  font-size: 1rem;
+  font-weight: 100;
+  letter-spacing: 2px;
+  text-align: center;
+  color: black;
+}
+
+.about3 h3{
+  font-weight: 400;
+  letter-spacing: .15px;
+  line-height: 1.75rem;
+  font-size: 15px;
+  width: 300px;
+  padding: 1.6rem 2.5rem;
+  background-color: rgb(25, 25, 25);
+  color: white;
+  text-align: center;
+}
+
+
+.filmstrip {
+  /* background: rgba(0, 0, 0, .35); */
+  size: 10px;
+  
+  background:
+   conic-gradient(at 50% 1rem, rgb(25, 25, 25) 75%,rgba(125, 125, 125, 0.1) 0)
+   0 0/calc(1.65*14px) calc(100% - 18px) padding-box;
+
+  border: 6px solid rgb(26, 26, 26);
+  padding: calc(10px * 2.25);
+}
+
+.filmstrip2 {
+  /* background: rgba(0, 0, 0, .35); */
+  size: 10px;
+  
+  background:
+   conic-gradient(at 12px,rgb(25, 25, 25) 75%,rgba(25, 25, 25, 0) 0)
+   0 0/calc(100% - 12px) calc(2*16px) padding-box;
+   
+  border: 4px solid black;
+  padding: calc(8px * 2.1);
+  border-bottom: 3rem solid rgb(25, 25, 25);
+}
+
+/* .fun-gif{
+  border: none;
+} */
+
+.fa-arrow-turn-up{
+  position: absolute;
+  left: -2rem;
+  top: 12rem;
+  font-size: 2rem;
+  transform: rotate(90deg);
+}
+
+.arrow-text{
+  position: absolute;
+  left: -4rem;
+  font-family: Custy;
+  font-size: 2rem;
+  
+}
+
+.about-container-bottom{
+  position: relative;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  /* margin: auto 3rem; */
+  padding-top: 3rem;
+  font-size: 10px;
+  flex-direction: column;
+}
+
+.about-text{
+  position: relative;
+  bottom: 3.25rem;
+}
+
+.about-text-film{
+  position: relative;
+  bottom: 3.25rem;
+}
+
+.about-fun-facts{
+  position: relative;
+  margin-top: 15rem;
+}
+
+.about-fun-top-text{
+  font-family: Custy;
+  font-size: 3.5rem;
+  font-weight: 100;
+  transform: rotate(-15deg);
+  position: absolute;
+  left: 4rem;
+  top: -12rem;
+}
+
+.about-fun-top-text span{
+  position: relative;
+  top: 8px;
+  left: -4px;
+  font-weight: 600;
+  font-size: 3.5rem;
+}
+
+.about-fun-left {
+  padding-bottom: 4rem;
+  width: 300px;
+}
+
+.about-fun-right {
+  padding-bottom: 4rem;
+  position: relative;
+  left: 0;
+  width: 286px;
+}
+
+.about-fun-img{
+  width: 300px;
+}
+
+.fun-img{
+  border: 10px solid white;
+  border-bottom: 3rem solid white;
+}
+
+/* 
+.about-fun-title{
+  font-family: "Varela Round", sans-serif;
+  text-transform: uppercase;
+  font-weight: 100;
+  padding: 1.5rem 4px 1rem 4px;
+  letter-spacing: 2px;
+  text-align: center;
+  color: black;
+} */
+.about-fun-title{
+  font-family: Marker ;
+  font-size: 13px;
+  font-weight: 100;
+  padding: 1.5rem 4px 1rem 4px;
+  letter-spacing: 2px;
+  text-align: center;
+  color: black;
+}
+
+.about-fun-title span{
+  padding: 0 10px;
+}
+
+.about-fun-text{
+  max-width: 300px;
+  padding: .5rem 4px;
+  /* text-align: center; */
+  /* text-transform: uppercase; */
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.fun-film{
+  color: white;
+}
+
+.about-space{
+  display: none;
+}
+
+.about-contact-banner{
+  background-color: rgba(247, 247, 247, .45);
+  padding: 3rem;
+  position: relative;
+  top: 3rem;
+}
+
+.about-contact-button{
+  padding: 1.5rem 2rem;
+  font-size: 1rem;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 100;
+  position: relative;
+  border: none;
+  letter-spacing: 3px;
+  background-color: white;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.about-contact-button:hover{
+  opacity: .5;
+}
+
+
+/* s */
+@media (min-width: 360px) {
+
+  .about-fun-right {
+    padding-bottom: 4rem;
+    position: relative;
+    left: 3.75rem;
+    width: 300px;
   }
 
-  .corner__about-img{
-    padding: inherit;
+  .about-fun-top-text{
+    left: 6rem;
+    font-size: 4.25rem;
   }
+
+  .about1 h2{
+    padding: 1.5rem;
+  }
+
+  /* .about3 h3{
+    padding: ;
+  } */
+
 }
+
 
 /* xs */
 @media (min-width: 475px) {
-  .about__banner-text{
-    font-size: 3.5rem;
-    width: 470px;
+  .about-container{
+    position: relative;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+    margin: auto 2rem;
+    gap: 3rem;
+    margin-top: 5.25rem;
+    font-size: 10px;
   }
 
-  .about__main{
-    padding: 4rem;
+  .about-fun-left {
+    position: relative;
+    width: 300px;
+    left: .5rem;
+}
+  
+  .about-fun-right {
+    padding-bottom: 4rem;
+    position: relative;
+    left: 11rem;
+    width: 300px;
   }
 
-  .about__main-title{
-    font-size: 3.5rem;
+  
+  .about-fun-top-text{
+    left: 15rem;
   }
-
-  .about__me-text-div{
-    padding: 3rem;
-  }
-
-  .corner__about-title{
-    font-size: 3.5rem;
-   }
-
-  .about__planning-title{
-    font-size: 3.5rem;
-   }
-
 }
 
 /* sm */
-/* @media (min-width: 640px) {} */
+@media (min-width: 640px) {
+  .about-container{
+    position: relative;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: top;
+    margin: auto 4rem;
+    gap: 4rem;
+    margin-top: 6rem;
+    font-size: 10px;
+  }
+
+  .about-fun-left {
+    position: relative;
+    width: 300px;
+    left: 4rem;
+}
+
+  .about-fun-right {
+    padding-bottom: 4rem;
+    position: relative;
+    left: 20rem;
+    width: 300px;
+  }
+
+  .about-fun-top-text{
+    left: 26rem;
+  }
+
+  
+}
 
 /* md */
 @media (min-width: 768px) {
 
-    
-  .about__banner-text{
+  .header__link{
+    /* padding-top: .75rem; */
+    padding-top: 0rem;
+  }
+  
+
+  .about2-span{
+    top: 5rem;
+    right: 2rem;
+    z-index: 10;
+  }
+
+  .about-container{
+    flex-direction: row;
+  }
+
+  .about-banner-text{
     font-size: 4.5rem;
+    bottom: -1.85rem;
   }
 
-  .about__me{
-    padding: 0 2rem;
-  }
-
-  .about__me-div{
-    position: relative;
-    display: flex;
+  .about-container-bottom{
     flex-direction: row;
-    text-align: center;
-    justify-content: space-between;
     align-items: center;
-    background-color: #efebe7;
-    gap: 0;
-    margin-bottom: 2rem;
+    gap: 5rem;
   }
 
-  .about__me-img{
-    max-width: 560px;
-    flex: .75;
-    padding: inherit;
+  .about2-img{
     position: relative;
-    margin: initial;
+    bottom: 23rem;
   }
 
-  .about__me-text-div{
-    flex: 1;
-    padding: 1rem 2rem;
-    line-height: 0;
-  }
-
-  .about__quote-text{
-    padding: inherit;
-  }
-
-  .corner__about{
+  .about3 h3{
     position: relative;
-    padding: 0 2rem 2rem;
+    bottom: 15rem;
   }
 
-  .corner__about-div{
+  .about-fun-title{
+    width: 300px;
+    max-width: initial;
+  }
+
+  .fun-film{
+    color: white;
+  }
+
+  .about-fun-text{
+    width: 300px;
+    max-width: initial;
+  }
+
+  .about-fun-facts{
     position: relative;
+    margin-top: 0;
     display: flex;
-    flex-direction: row;
-    text-align: center;
+    flex-direction: column;
     justify-content: center;
-    align-items: inherit;
-    margin-bottom: 2rem;
-    gap: 0;
+    align-items: center;
   }
 
-  .corner__about-text {
-    padding: 3rem 2rem;
+  .about-fun-left {
+    padding-bottom: 10rem;
+    position: relative;
+    width: 300px;
+    right: 14rem;
+    left: initial;
 }
 
-  .corner__about-img{
-    max-width: 334px;
-    padding: inherit;
+  .about-fun-right {
+    padding-bottom: 4rem;
     position: relative;
-    margin: initial;
-    /* flex: .5; */
+    left: 14rem;
+    width: 300px;
   }
 
+  .about-fun-top-text{
+    left: 32rem;
+    top: 6rem;
+  }
+
+  .left-1{
+    top: 19rem;
+  }
+
+  .right-1{
+    bottom: 0rem;
+    top: 0rem;
+  }
+
+  .left-2{
+    bottom: 27rem;
+  }
+
+  .right-2{
+    bottom: 51rem;
+  }
+
+  .about-fun-img{
+    width: 300px;
+  }
+
+  .footer__logo{
+    margin-top: 0;
+  }
+
+  .about-space {
+    display: block;
+    position: relative;
+    bottom: 30rem;
+    /* background-image: url(/img/CTG-News3.jpg); */
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    /* height: 50vh; */
+    margin-top: -16rem;
+    margin-bottom: -32rem;
+  }
+
+  .about-space button{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+  }
+
+  .about-contact-banner{
+    padding: 6rem;
+    top: initial;
+    bottom: 3rem;
+  }
+
+  .about-contact-button{
+    padding: 4rem;
+  }
 }
 
 /* Lg */
 @media (min-width: 1024px) {
 
-  .about__banner-text{
-    font-size: 5.75rem;
-    width: max-content;
+  .about2-span{
+    bottom: 10.75rem;
+    right: -1rem;
+    top: inherit;
+    z-index: 10;
   }
 
-  .about__me-div{
-    align-items: center;
+  .about-fun-img{
+    width: 380px;
   }
 
-  .about__me-img{
-    flex: 1.25;
+  .about-fun-top-text{
+    left: 42rem;
   }
 
-  .corner__about-p{
-    padding: 0;
-    max-width: 720px;
-    margin: 0 auto;
+  .about-fun-title{
+    width: 400px;
+    max-width: initial;
   }
 
-  .about__me-text{
-    padding: 0 2rem 2rem;
-    }
-  
-  .about__me-text-div{
-    flex: 1.25;
-    padding: 2rem 1rem 2rem;
-    line-height: 0;
+  .fun-film{
+    color: white;
   }
 
-  .corner__about-text {
-    padding: 6rem 2rem 0;
+
+  .about-fun-text{
+    width: 400px;
+    max-width: initial;
+  }
+
+  .about2-img {
+    position: relative;
+    bottom: 10rem;
+    left: 3rem;
 }
+
+  .about1 h2{
+    position: relative;
+    width: 500px;
+    right: 9rem;
+    padding: 2rem 3rem;
+
+  }
+
+  .about3 h3{
+    position: relative;
+    bottom: 0rem;
+    width: 500px;
+    padding: 2rem 3rem;
+
+  }
+
+  .about-gif{
+    position: relative;
+    right: 3rem;
+  }
+
+  .about-container-bottom{
+    gap: 2rem;
+  }
+
+  
 
 }
 
 /* xL */
 @media (min-width: 1288px) {
-  .about__me-text{
-    padding: 0 8rem 2rem;
-    }
+  .about-fun-top-text{
+    left: 46rem;
+  }
 }
 
 /* 2xL */
-/* @media (min-width: 1536px) {}   */
+@media (min-width: 1536px) {
+  .about-fun-top-text{
+    left: 60rem;
+  }
+}  
